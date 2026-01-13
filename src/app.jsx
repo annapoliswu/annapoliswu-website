@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, NavLink } from 'react-router';
 // import pages
 //import FeaturedCard from './components/featured_card';
 
-import Nav from './components/nav';
+import Navbar from './components/navbar';
 import Homepage from './pages/homepage';
 import Work from './pages/work';
 import About from './pages/about';
@@ -15,7 +15,7 @@ function App(props) {
     return (
         <BrowserRouter>
             <div>
-                <Nav/>
+                <Navbar/>
                 <Routes>
                     <Route path="/" element={<Homepage/>} />
                     <Route path="/work" element={<Work/>} />

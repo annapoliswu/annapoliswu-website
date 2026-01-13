@@ -5,14 +5,12 @@ html {
     height: 100%;
 }
 
-.logo {
-    background-image: url('img/logo.png');
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 :root{
     text-size-adjust: 100%;
+}
+
+
+a.active{
+    color: red;
 }

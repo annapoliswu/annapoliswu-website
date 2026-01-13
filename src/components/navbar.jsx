@@ -1,9 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router';
+import '../css/navbar.scss';
 
-const Nav = () => {
+const Navbar = () => {
     return (
         <nav>
+            <div className='.logo' ></div>
             <ul>
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/work">Work</NavLink></li>
@@ -15,4 +17,4 @@ const Nav = () => {
 };
 
 
-export default Nav;
+export default Navbar;

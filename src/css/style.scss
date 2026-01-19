@@ -1,3 +1,85 @@
+
+
+html, body, div{
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6  {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.rounded{
+    border-radius: 8px;
+}
+
+// fonts
+$f-2xl: 36px;
+$f-xl: 24px;
+$f-lg: 20px;
+$f-md: 16px;
+$f-sm: 14px;
+$f-xs: 12px;
+
+// font weights
+$fw-b: 600;
+$fw-r: 400;
+$fw-l: 300;
+
+$desktop: 1400px;
+$mobile: 768px;
+
+// mobile and up 
+@media only screen and (min-width: $mobile) {
+    .font-xl {
+        font-size: $f-2xl;
+    }
+
+    .font-lg {
+        font-size: $f-xl;
+    }
+
+    .font-md {
+        font-size: $f-md;
+    }
+
+    .font-sm {
+        font-size: $f-sm;
+    }
+
+    .font-xs {
+        font-size: $f-xs;
+    }
+}
+
+//mobile devices
+@media only screen and (max-width: $mobile) {
+    .font-xl {
+        font-size: $f-xl;
+    }
+
+    .font-lg {
+        font-size: $f-lg;
+    }
+
+    .font-md {
+        font-size: $f-md;
+    }
+
+    .font-sm {
+        font-size: $f-sm;
+    }
+
+    .font-xs {
+        font-size: $f-xs;
+    }
+}
+
+
+
 body,
 html {
     font-family: "Roboto", sans-serif;
@@ -8,9 +90,4 @@ html {
 
 :root{
     text-size-adjust: 100%;
-}
-
-
-a.active{
-    color: red;
 }

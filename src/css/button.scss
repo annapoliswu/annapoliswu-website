@@ -1,0 +1,25 @@
+.btn-container{
+    padding:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 100px;
+    background-color: white;
+    
+}
+
+.btn-container:hover{
+    background-color: red;
+}
+
+.btn-text{
+    text-decoration: none;
+}
+
+.btn-icon{
+    height: 30px;
+    width:30px;
+    background-color: blue;
+}

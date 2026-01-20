@@ -1,3 +1,5 @@
+@use './sharedVariables' as *;
+
 .btn-container{
     padding:8px;
     display: flex;
@@ -6,12 +8,15 @@
     text-align: center;
 
     border-radius: 100px;
+    border: 1px solid $brand-dark;
     background-color: white;
+
+    transition: linear 100ms;
     
 }
 
 .btn-container:hover{
-    background-color: red;
+    background-color: $brand-light;
 }
 
 .btn-text{
@@ -21,5 +26,5 @@
 .btn-icon{
     height: 30px;
     width:30px;
-    background-color: blue;
+    background-color: white;
 }

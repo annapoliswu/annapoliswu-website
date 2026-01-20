@@ -1,0 +1,40 @@
+//media queries
+$max-app-container: 1340px;
+$desktop: 1500px;
+$mobile: 768px;
+
+//colors
+$purple-700: #3d0280;
+$purple-600: #6518bc;
+$purple-500: #8e42e5;
+$purple-400: #b97cff;
+$purple-300: #d9b7ff;
+$purple-200: #e9d6ff;
+$purple-100: #f8f1ff;
+
+$greyscale-700: #1a1a1a;
+$greyscale-600: #2f2f2f;
+$greyscale-500: #636363;
+$greyscale-400: #949494;
+$greyscale-300: #b3b3b3;
+$greyscale-200: #e6e6e6;
+$greyscale-100: #ffffff;
+
+
+$text-primary: $greyscale-600; 
+$text-invert: $greyscale-100;
+
+$brand-primary: $purple-500;
+$brand-light: $purple-200;
+$brand-dark: $purple-700;
+
+$surface-light: $greyscale-100;
+$surface-dark: $greyscale-700;
+
+
+//spacing
+$spacing-xl: 48px;
+$spacing-lg: 24px;
+$spacing-md: 16px;
+$spacing-sm: 8px;
+$spacing-xs: 4px;

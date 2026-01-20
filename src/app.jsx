@@ -11,18 +11,19 @@ import About from './pages/about';
 import Fallback from './pages/fallback';
 
 
+// all pages must be added to routes below
 function App(props) {
     return (
         <BrowserRouter>
-            <div>
-                <Navbar/>
-                <Routes>
-                    <Route path="/" element={<Homepage/>} />
-                    <Route path="/work" element={<Work/>} />
-                    <Route path="/about" element={<About/>} />
-                    <Route path="/resume" element={<About/>} />
-                    <Route path="*" element={<Fallback/>} />
-                </Routes>
+            <div className='app-container'>
+                    <Navbar/>
+                    <Routes> 
+                        <Route path="/" element={<Homepage/>} />
+                        <Route path="/work" element={<Work/>} />
+                        <Route path="/about" element={<About/>} />
+                        <Route path="/resume" element={<About/>} />
+                        <Route path="*" element={<Fallback/>} />
+                    </Routes>
             </div>
         </BrowserRouter>
     );

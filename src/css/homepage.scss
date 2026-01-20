@@ -1,0 +1,16 @@
+@use './sharedVariables' as *;
+
+.grid{
+    display: grid;
+    padding: 2rem 0rem;
+    gap: 3%;
+    grid-template-columns: auto auto;
+}
+
+//mobile devices
+@media only screen and (max-width: $mobile) {
+    .grid{
+        grid-template-columns: auto;
+    }
+
+}

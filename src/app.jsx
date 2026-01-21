@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router';
+import { ScrollReveal } from '@allwells/react-scroll-reveal';
 
 // import pages
 //import FeaturedCard from './components/featured_card';
 
-import Navbar from './components/navbar';
-import Homepage from './pages/homepage';
-import Work from './pages/work';
-import About from './pages/about';
-import Fallback from './pages/fallback';
+import Navbar from './jsx/components/navbar';
+import Homepage from './jsx/pages/homepage';
+import Work from './jsx/pages/work';
+import About from './jsx/pages/about';
+import Fallback from './jsx/pages/fallback';
 
 
 // all pages must be added to routes below

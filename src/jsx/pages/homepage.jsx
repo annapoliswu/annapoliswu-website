@@ -1,10 +1,10 @@
 import React from 'react';
 import FeaturedCard from '../components/featuredCard';
-import'../css/homepage.scss';
+import'../../css/homepage.scss';
 
-import mavis from'../img/mavis-thumbnail.jpg';
-import simplyspeak from'../img/simplyspeak-thumbnail.jpg';
-import veridium from'../img/veridium-thumbnail.jpg';
+import mavis from'../../img/mavis-thumbnail.jpg';
+import simplyspeak from'../../img/simplyspeak-thumbnail.jpg';
+import veridium from'../../img/veridium-thumbnail.jpg';
 
 function Homepage(props) {
     return (

@@ -1,22 +1,16 @@
 @use './sharedVariables' as *;
 
 .btn-container{
-    padding:8px;
+    height:30px;
+    width: fit-content;
+    padding:8px 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
     border-radius: 100px;
-    border: 1px solid $brand-dark;
-    background-color: white;
 
     transition: linear 100ms;
-    
-}
-
-.btn-container:hover{
-    background-color: $brand-light;
 }
 
 .btn-text{
@@ -27,4 +21,33 @@
     height: 30px;
     width:30px;
     background-color: white;
+}
+
+
+
+.btn-container.primary{
+    background-color: $brand-primary;
+}
+
+.btn-container.primary > .btn-text{
+    color: $text-invert;
+}
+
+.btn-container.primary:hover{
+    background-color: $brand-dark;
+}
+
+
+
+.btn-container.secondary{
+    border: 1px solid $greyscale-500;
+    background-color: white;
+}
+
+.btn-container.secondary > .btn-text{
+    color: $text-primary;
+}
+
+.btn-container.secondary:hover{
+    background-color: $brand-light;
 }

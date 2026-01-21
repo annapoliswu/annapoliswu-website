@@ -4,11 +4,19 @@ import'../css/button.scss';
 
 
 const Button = (props) => {
+    let leftIcon = <img/>;
+    if(props.leftIcon){
+        leftIcon = <img className="btn-icon left" src={props.leftIcon}/>
+    }
+    let rightIcon = <img/>;
+    if( props.rightIcon){
+        rightIcon = <img className="btn-icon right" src={props.rightIcon}/>
+    }
     return(
-        <div className="btn-container">
-            <img className="btn-icon left" src={props.leftIcon}/>
+        <div className={"btn-container " + props.btnType}>
+            {leftIcon}
             <Link className="btn btn-text" to={props.link}> {props.text} </Link>
-            <img className="btn-icon right" src={props.rightIcon}/>
+            {rightIcon}
         </div>
     );
 }

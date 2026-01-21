@@ -4,13 +4,13 @@ $desktop: 1500px;
 $mobile: 768px;
 
 //colors
-$purple-700: #3d0280;
-$purple-600: #6518bc;
-$purple-500: #8e42e5;
-$purple-400: #b97cff;
-$purple-300: #d9b7ff;
-$purple-200: #e9d6ff;
-$purple-100: #f8f1ff;
+$brand-700: #531aa9;
+$brand-600: #5c32c5;
+$brand-500: #6c5dd1;
+$brand-400: #ab93ec;
+$brand-300: #ccbcf8;
+$brand-200: #efe9ff;
+$brand-100: #f2edff;
 
 $greyscale-700: #1a1a1a;
 $greyscale-600: #2f2f2f;
@@ -23,10 +23,6 @@ $greyscale-100: #ffffff;
 
 $text-primary: $greyscale-600; 
 $text-invert: $greyscale-100;
-
-$brand-primary: $purple-500;
-$brand-light: $purple-200;
-$brand-dark: $purple-700;
 
 $surface-light: $greyscale-100;
 $surface-dark: $greyscale-700;

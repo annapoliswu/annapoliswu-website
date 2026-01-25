@@ -1,0 +1,31 @@
+@use './sharedVariables' as *;
+
+.home-hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 310px;
+    padding: 5%;
+
+    gap: 1rem;
+    
+    background-color: white;
+}
+
+.home-hero-title, .home-hero-blurb{
+    color: $text-default;
+    text-align: center;
+}
+
+@media only screen and (width <= $mobile) {
+
+    .home-hero-container{
+        height:auto;
+        min-height: 450px;
+    }
+
+
+
+}

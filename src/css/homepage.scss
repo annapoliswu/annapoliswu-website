@@ -2,8 +2,8 @@
 
 .grid{
     display: grid;
-    padding: 2rem 0rem;
-    gap: 3%;
+    padding: 4rem 0rem;
+    gap: 4%;
     grid-template-columns: auto auto;
 }
 
@@ -11,6 +11,8 @@
 @media only screen and (max-width: $mobile) {
     .grid{
         grid-template-columns: auto;
+        padding: 2rem 0rem;
+        gap: 2%;
     }
 
 }

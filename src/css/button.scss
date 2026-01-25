@@ -25,15 +25,15 @@
 
 
 
-.btn-container.primary{
+.btn-container{
     background-color: $brand-500;
 }
 
-.btn-container.primary > .btn-text{
+.btn-container > .btn-text{
     color: $text-invert;
 }
 
-.btn-container.primary:hover{
+.btn-container:hover{
     background-color: $brand-700;
 }
 
@@ -45,9 +45,25 @@
 }
 
 .btn-container.secondary > .btn-text{
-    color: $text-primary;
+    color: $text-default;
 }
 
 .btn-container.secondary:hover{
     background-color: $brand-300;
+}
+
+
+
+.btn-container.tertiary{
+    border: 1px solid $greyscale-100;
+    background-color: transparent;
+}
+
+.btn-container.tertiary > .btn-text{
+    color: $text-invert;
+}
+
+.btn-container.tertiary:hover{
+    background-color: $brand-600;
+
 }

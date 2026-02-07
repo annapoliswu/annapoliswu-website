@@ -7,11 +7,14 @@ import mavis from'../../img/mavis-thumbnail.jpg';
 import simplyspeak from'../../img/simplyspeak-thumbnail.jpg';
 import veridium from'../../img/veridium-thumbnail.jpg';
 
+import {useRef} from 'react'
+
 function Homepage(props) {
+    const scrollRef = useRef();
     return (
         <div> 
-            <HomeHero></HomeHero>
-            <div class='grid'>
+            <HomeHero scrollRef={scrollRef}></HomeHero>
+            <div class='grid' ref={scrollRef}>
                 <FeaturedCard 
                     link='/about'
                     title='some title here'

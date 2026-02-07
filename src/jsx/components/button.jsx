@@ -21,4 +21,15 @@ const Button = (props) => {
     );
 }
 
+export const ScrollButton = (props) => {
+    return(
+        <div className={"btn-container " + props.btnType} onClick={()=>{props.scrollRef
+            .current.scrollIntoView({behavior: 'smooth', block: 'start' })}}>
+            <p className="btn btn-text">{props.text}</p>
+        </div>
+    );
+
+}
+
+
 export default Button;

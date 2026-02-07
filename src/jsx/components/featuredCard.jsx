@@ -13,7 +13,7 @@ const FeaturedCard = (props) => {
                     <img className='featuredCardImage rounded' src={props.imgSrc}></img>
                     <h2 className='project-title font-lg'>{props.title}</h2>
                     <p className='project-blurb font-md'>{props.blurb}</p>
-                    <Button link={props.link} text={props.btnText} btnType={"secondary"} />
+                    <Button link={props.link} text="Read More" />
                 </div>
             </Link>
         </ScrollReveal>

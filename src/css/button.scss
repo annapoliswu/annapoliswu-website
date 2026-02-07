@@ -25,32 +25,40 @@
 
 
 
+
 .btn-container{
-    background-color: $brand-500;
-}
-
-.btn-container > .btn-text{
-    color: $text-invert;
-}
-
-.btn-container:hover{
-    background-color: $brand-700;
-}
-
-
-
-.btn-container.secondary{
     border: 1px solid $greyscale-500;
     background-color: transparent;
 }
 
-.btn-container.secondary > .btn-text{
+.btn-container > .btn-text{
     color: $text-default;
 }
 
-.btn-container.secondary:hover{
-    background-color: $brand-300;
+.btn-container:hover{
+    background-color: $brand-500;
+    border: none;
 }
+
+.btn-container:hover > .btn-text{
+    color: $text-invert;
+}
+
+
+.btn-container.secondary{
+    border: none;
+    background-color: $brand-500;
+}
+
+.btn-container.secondary > .btn-text{
+    color: $text-invert;
+}
+
+.btn-container.secondary:hover{
+    background-color: $brand-400;
+}
+
+
 
 
 

@@ -3,27 +3,48 @@
 .home-hero-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
 
-    height: 310px;
-    padding: 5%;
+    padding: 0% 5% 5% 5%;
 
-    gap: 1rem;
+    gap: 2rem;
     
     background-color: white;
+}
+
+.home-hero-background-text{
+    width: 100%;
+    text-align: center;
+    
+    color: $brand-200;
+    font-weight: 700;
+
+    position: relative;
+    top: 1vw;
+
+    font-size: 12vw;
+    line-height: 80%;
+    letter-spacing: 2rem;
 }
 
 .home-hero-title, .home-hero-blurb{
     color: $text-default;
     text-align: center;
+    z-index: 2;
+}
+
+.home-hero-title{
+    font-size: 3rem;
+    font-family: 'StoryOfLove';
+    color: $brand-500;
+    //ye 'Creattion''StoryOfLove' 'Amiah''Goldfish'
 }
 
 @media only screen and (width <= $mobile) {
 
     .home-hero-container{
         height:auto;
-        min-height: 450px;
     }
 
 

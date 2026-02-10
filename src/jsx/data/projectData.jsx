@@ -1,6 +1,7 @@
 
-export const ProjectData = new Map([
-    ["mavis-vehicle-pages", {
+export const projectData = [
+    {
+        id: "mavis-vehicle-pages",
         title: "Mavis Vehicle Pages",
         timeFrame: "2025",
         role: ["UI/UX Lead"],
@@ -10,9 +11,10 @@ export const ProjectData = new Map([
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/mavis-vehicle-pages",
         thumbnail: 'img/mavis-thumbnail.jpg',
-        cover: 'img/mavis-cover.jpg'}],
-
-    ["simplyspeak",  {
+        cover: 'img/mavis-cover.jpg'
+    },
+    {
+        id: "simplyspeak",
         title: "SimplySpeak App",
         timeFrame: "2024",
         role: ["UI/UX Designer"],
@@ -22,9 +24,10 @@ export const ProjectData = new Map([
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/simplyspeak",
         thumbnail: 'img/simplyspeak-thumbnail.jpg',
-        cover: 'img/simplyspeak-cover.jpg'}],
-
-    ["veridium",  {
+        cover: 'img/simplyspeak-cover.jpg'
+    },
+    {
+        id: "veridium",
         title: "Veridium",
         timeFrame: "2024",
         role: ["UX Researcher","Technical Artist"],
@@ -34,9 +37,10 @@ export const ProjectData = new Map([
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/veridium",
         thumbnail: 'img/veridium-thumbnail.jpg',
-        cover: 'img/veridium-cover.jpg'}],
-
-    ["soundboard", {
+        cover: 'img/veridium-cover.jpg'
+    },
+    {
+        id: "soundboard",
         title: "Soundboard App",
         timeFrame: "2023",
         role: ["Programmer"],
@@ -46,7 +50,8 @@ export const ProjectData = new Map([
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/soundboard",
         thumbnail: 'img/soundboard-thumbnail.jpg',
-        cover: 'img/soundboard-cover.jpg'}]
-]);
+        cover: 'img/soundboard-cover.jpg'
+    },
+];
 
-export default ProjectData;
+export default projectData;

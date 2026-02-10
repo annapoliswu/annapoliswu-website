@@ -8,7 +8,7 @@ import { ScrollReveal } from '@allwells/react-scroll-reveal';
 const FeaturedCard = (props) => {
     return (
         <ScrollReveal animationType="fade" delay={100} once={false}>
-            <Link className="btn btn-text" to={props.link}>
+            <Link className="featuredCardLink" to={props.link}>
                 <div className='featuredCardContainer rounded' >
                     <img className='featuredCardImage rounded' src={props.imgSrc}></img>
                     <h2 className='project-title font-lg'>{props.title}</h2>

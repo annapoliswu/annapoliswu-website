@@ -15,6 +15,7 @@
 
 .btn-text{
     text-decoration: none;
+    font-weight: 700;
 }
 
 .btn-icon{
@@ -27,7 +28,7 @@
 
 
 .btn-container{
-    border: 1px solid $greyscale-500;
+    border: 1.75px solid $greyscale-500;
     background-color: transparent;
 }
 
@@ -37,7 +38,7 @@
 
 .btn-container:hover{
     background-color: $brand-500;
-    border: none;
+    border-color: $brand-500;
 }
 
 .btn-container:hover > .btn-text{
@@ -46,8 +47,8 @@
 
 
 .btn-container.secondary{
-    border: none;
     background-color: $brand-500;
+    border-color: $brand-500;
 }
 
 .btn-container.secondary > .btn-text{

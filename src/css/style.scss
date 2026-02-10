@@ -1,9 +1,18 @@
 @use './sharedVariables' as *;
 
-html, body, div{
-    margin: 0;
-    padding: 0;
+
+body,
+html {
+    
+    font-family: 'Open Sans'; //'Figtree';
+    
+    background: $surface-light;
+    height: 100%;
+
+    margin: 0; //may or may not need on div also
+    padding: 0; 
 }
+
 
 p, h1, h2, h3, h4, h5, h6  {
     margin: 0;
@@ -14,15 +23,6 @@ p, h1, h2, h3, h4, h5, h6  {
 
 p{
     line-height: 2;
-}
-
-
-body,
-html {
-    font-family: "Roboto", sans-serif;
-    
-    background: $surface-light;
-    height: 100%;
 }
 
 //background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);

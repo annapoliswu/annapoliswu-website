@@ -14,7 +14,7 @@ const HomeHero = (props) => {
             
             <div className="home-hero">
                 <p className='home-hero-background-text font-xl'>吴紫旰</p>
-                <div className="home-hero-container rounded">
+                <div className="home-hero-container">
                 <h1 className='home-hero-title font-2xl'>Zihan Wu</h1>
                 <p className='home-hero-blurb font-lg'>
                     Designing elegant solutions with my background in interaction and computer science. 

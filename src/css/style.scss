@@ -24,6 +24,10 @@ p{
     line-height: 2;
 }
 
+img{
+    border-radius: $rounded;
+}
+
 //background: linear-gradient(to bottom, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
 
 
@@ -130,11 +134,6 @@ $fw-l: 300;
         margin: 40px 80px;
     }
 
-    .rounded{
-        border-radius: 18px;
-    }
-
-    
     .font-2xl {
         font-size: $f-3xl;
     }

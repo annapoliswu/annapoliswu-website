@@ -1,0 +1,19 @@
+@use './sharedVariables' as *;
+
+.projectContainer{
+    background-color: $surface-light;
+
+    display: flex;
+    flex-direction:column;
+    gap: .75rem;
+    padding: 5%;
+
+    transition: linear 200ms;
+}
+
+.projectCoverImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}

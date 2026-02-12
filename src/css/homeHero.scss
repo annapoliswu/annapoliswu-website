@@ -6,7 +6,7 @@
     justify-content: top;
     align-items: center;
 
-    padding: 0% 5% 5% 5%;
+    padding: 2% 5% 4% 5%;
 
     gap: 2rem;
     
@@ -16,16 +16,17 @@
 .home-hero-background-text{
     width: 100%;
     text-align: center;
+    font-family: $font-chinese;
     
     color: $brand-200;
     font-weight: 700;
 
     position: relative;
-    top: 1vw;
+    top: 2rem;
 
-    font-size: 12vw;
-    line-height: 80%;
-    letter-spacing: 2rem;
+    font-size: 11vw;
+    line-height:80%;
+    letter-spacing: 2.5rem;
 }
 
 .home-hero-title, .home-hero-blurb{
@@ -35,10 +36,9 @@
 }
 
 .home-hero-title{
-    font-size: 3rem;
-    font-family: 'StoryOfLove';
+    font-size: 3.5rem;
+    font-family: $font-script;
     color: $brand-500;
-    //ye 'Creattion''StoryOfLove' 'Amiah''Goldfish'
 }
 
 @media only screen and (width <= $mobile) {
@@ -47,6 +47,8 @@
         height:auto;
     }
 
-
+    .home-hero-title{
+        font-size: 2.5rem;
+    }
 
 }

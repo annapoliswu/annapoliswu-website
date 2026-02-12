@@ -1,10 +1,9 @@
 @use './sharedVariables' as *;
 
 
-body,
-html {
+body,html {
     
-    font-family: 'Open Sans'; //'Figtree';
+    font-family: $font-default; //'Figtree';
     
     background: $surface-light;
     height: 100%;

@@ -7,7 +7,7 @@ import { ScrollReveal } from '@allwells/react-scroll-reveal';
 
 import Navbar from './jsx/components/navbar';
 import Homepage from './jsx/pages/homepage';
-import Work from './jsx/pages/work';
+import Archive from './jsx/pages/archive';
 import About from './jsx/pages/about';
 import Fallback from './jsx/pages/fallback';
 
@@ -20,7 +20,7 @@ function App(props) {
                     <Navbar/>
                     <Routes> 
                         <Route path="/" element={<Homepage/>} />
-                        <Route path="/work" element={<Work/>} />
+                        <Route path="/archive" element={<Archive/>} />
                         <Route path="/about" element={<About/>} />
                         <Route path="/resume" element={<About/>} />
                         <Route path="*" element={<Fallback/>} />

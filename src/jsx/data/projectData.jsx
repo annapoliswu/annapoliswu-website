@@ -1,7 +1,5 @@
-
-export const projectData = [
-    {
-        id: "mavis-vehicle-pages",
+export const ProjectData = new Map([
+    ["mavis-vehicle-pages", {
         title: "Mavis Vehicle Pages",
         timeFrame: "2025",
         role: ["UI/UX Lead"],
@@ -11,10 +9,9 @@ export const projectData = [
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/mavis-vehicle-pages",
         thumbnail: 'img/mavis-thumbnail.jpg',
-        cover: 'img/mavis-cover.jpg'
-    },
-    {
-        id: "simplyspeak",
+        cover: 'img/mavis-cover.jpg'}],
+
+    ["simplyspeak",  {
         title: "SimplySpeak App",
         timeFrame: "2024",
         role: ["UI/UX Designer"],
@@ -24,10 +21,9 @@ export const projectData = [
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/simplyspeak",
         thumbnail: 'img/simplyspeak-thumbnail.jpg',
-        cover: 'img/simplyspeak-cover.jpg'
-    },
-    {
-        id: "veridium",
+        cover: 'img/simplyspeak-cover.jpg'}],
+
+    ["veridium",  {
         title: "Veridium",
         timeFrame: "2024",
         role: ["UX Researcher","Technical Artist"],
@@ -37,10 +33,9 @@ export const projectData = [
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/veridium",
         thumbnail: 'img/veridium-thumbnail.jpg',
-        cover: 'img/veridium-cover.jpg'
-    },
-    {
-        id: "soundboard",
+        cover: 'img/veridium-cover.jpg'}],
+
+    ["soundboard", {
         title: "Soundboard App",
         timeFrame: "2023",
         role: ["Programmer"],
@@ -50,8 +45,7 @@ export const projectData = [
         blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar sagittis velit, eu blandit lectus maximus ut. Vestibulum consequat ligula auctor congue luctus.",
         link: "/soundboard",
         thumbnail: 'img/soundboard-thumbnail.jpg',
-        cover: 'img/soundboard-cover.jpg'
-    },
-];
+        cover: 'img/soundboard-cover.jpg'}]
+]);
 
-export default projectData;
+export default ProjectData;

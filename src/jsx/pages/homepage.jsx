@@ -14,9 +14,8 @@ function Homepage(props) {
             <HomeHero scrollRef={scrollRef}></HomeHero>
             <div className='grid' ref={scrollRef}>
             
-            {Object.entries(ProjectData).map(([key,project]) => {
+            {[...ProjectData].map(([key,project]) => {
                 return<FeaturedCard 
-                    key={key}
                     link={project.link}
                     title={project.title}
                     blurb={project.blurb}

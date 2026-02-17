@@ -9,7 +9,7 @@ function SimplySpeak(props) {
         <div>
             
             <Project {...data}>
-                <h1>SimplySpeak Project Page</h1>
+                <h2>SimplySpeak Project Page</h2>
                 <p>This is extra content inside the SimplySpeak project page.</p>
             </Project>
         </div>

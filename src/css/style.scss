@@ -131,7 +131,7 @@ $fw-l: 300;
 // mobile and up 
 @media only screen and (width > $mobile) {
     .app-container{
-        margin: 40px 80px;
+        margin: 40px 100px;
     }
 
     .font-2xl {
@@ -158,48 +158,11 @@ $fw-l: 300;
         font-size: $f-xs;
     }
 
-    .padding-lg{
-        padding: $spacing-lg;
-    }
-    .padding-md{
-        padding: $spacing-md;
-    }
-    .padding-sm{
-        padding: $spacing-sm;
-    }
-
-    .padding-x-lg{
-        padding-left: $spacing-lg;
-        padding-right: $spacing-lg;
-    }
-    .padding-x-md{
-        padding-left: $spacing-md;
-        padding-right: $spacing-md;
-    }
-    .padding-x-sm{
-        padding-left: $spacing-sm;
-        padding-right: $spacing-sm;
-    }
-
-    .padding-y-lg{
-        padding-top: $spacing-lg;
-        padding-bottom: $spacing-lg;
-    }
-    .padding-y-md{
-        padding-top: $spacing-md;
-        padding-bottom: $spacing-md;
-    }
-    .padding-y-sm{
-        padding-top: $spacing-sm;
-        padding-bottom: $spacing-sm;
-    }
-
-
 }
 
 // widescreen
 @media only screen and (width > $desktop){
     .app-container{
-        margin: 40px auto 80px auto;
+        margin: 40px auto 40px auto;
     }
 }

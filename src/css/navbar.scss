@@ -15,7 +15,7 @@ nav > ul{
     justify-content: center;
     flex-direction: row;
     
-    gap: 48px;
+    gap: 60px;
     list-style-type: none;
     padding: 0;
 }
@@ -25,13 +25,17 @@ nav > li{
     text-align: center;
 }
 
-a{
-    color: black;
+nav a{
+    color: $text-default;
     text-decoration: none;
 }
 
-a.active{
+nav a.active{
     color: $brand-500;
+}
+
+nav a:hover{
+    color: $brand-600;
 }
 
 

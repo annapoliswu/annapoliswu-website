@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, NavLink } from 'react-router';
-import { ScrollReveal } from '@allwells/react-scroll-reveal';
-import { ScrollRestoration } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Route, Outlet, ScrollRestoration } from 'react-router-dom';
+
+
 
 // import pages
 //import FeaturedCard from './components/featured_card';
@@ -17,28 +17,59 @@ import Soundboard from './jsx/pages/projectPages/soundboard';
 import MavisVehiclePages from './jsx/pages/projectPages/mavisVehiclePages';
 import Veridium from './jsx/pages/projectPages/veridium';
 
+
+const AppLayout = () => (
+    <div className='app-container'>
+        <Navbar />
+        <Outlet />
+        <ScrollRestoration />
+    </div>
+);
+
+const router = createBrowserRouter([
+    {
+        element: <AppLayout />,
+        children: [
+            {
+                path: '/',
+                element: <Homepage />,
+            },
+            {
+                path: '/archive',
+                element: <Archive />,
+            },
+            {
+                path: '/about',
+                element: <About />,
+            },
+            {
+                path: '/mavis-vehicle-pages',
+                element: <MavisVehiclePages />,
+            },
+            {
+                path: '/simplyspeak',
+                element: <SimplySpeak />,
+            },
+            {
+                path: '/veridium',
+                element: <Veridium />,
+            },
+            {
+                path: '/soundboard',
+                element: <Soundboard />,
+            },
+            {
+                path: "*",
+                element: <Fallback />,
+            },
+        ]
+
+    }]);
+
+
 // all pages must be added to routes below
 function App(props) {
-
-    return (
-        <BrowserRouter>
-            <div className='app-container'>
-                    <Navbar/>
-                    <Routes> 
-                        <Route path="/" element={<Homepage/>} />
-                        <Route path="/archive" element={<Archive/>} />
-                        <Route path="/about" element={<About/>} />
-                        <Route path="/resume" element={<About/>} />
-                        <Route path="*" element={<Fallback/>} />
-
-                        <Route path="/simplyspeak" element={<SimplySpeak/>} />
-                        <Route path="/soundboard" element={<Soundboard/>} />
-                        <Route path="/mavis-vehicle-pages" element={<MavisVehiclePages/>} />
-                        <Route path="/veridium" element={<Veridium/>} />
-                    </Routes>
-            </div>
-        </BrowserRouter>
-    );
+    return <RouterProvider router={router} />;
 };
 
 

@@ -16,6 +16,7 @@ function Homepage(props) {
             
             {[...ProjectData].map(([key,project]) => {
                 return<FeaturedCard 
+                    key={key}
                     link={project.link}
                     title={project.title}
                     blurb={project.blurb}

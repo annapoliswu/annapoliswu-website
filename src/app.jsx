@@ -19,11 +19,13 @@ import Veridium from './jsx/pages/projectPages/veridium';
 
 
 const AppLayout = () => (
-    <div className='app-container'>
+    <>
         <Navbar />
-        <Outlet />
-        <ScrollRestoration />
-    </div>
+        <div className='app-container'>  
+            <Outlet />
+            <ScrollRestoration />
+        </div>
+    </>
 );
 
 const router = createBrowserRouter([

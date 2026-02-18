@@ -1,6 +1,6 @@
 import React from 'react';
-import Project from './project';
-import ProjectData from '../data/projectData';
+import Project from '../project';
+import ProjectData from '../../data/projectData';
 
 function SimplySpeak(props) {
     let data = ProjectData.get("simplyspeak");

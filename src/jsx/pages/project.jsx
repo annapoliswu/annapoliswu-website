@@ -7,26 +7,39 @@ function Project(props) {
         <div className='projectContainer'> 
             
             <img className="projectCoverImg" src={props.thumbnail}></img>
+
+            <div className='projectOverview'>
             <div className='projectDetails'>
                     <div className='projectDetailItem'>
-                        <p className='label'>Time Frame</p>
+                        <p className='label'>Date</p>
                         <p className='labelValue'>{props.timeFrame}</p>
                     </div>
                     <div className='projectDetailItem'>
                         <p className='label'>Role</p>
-                        <p className='labelValue'>{props.role} </p>
+                        <div>{props.role.map(role =>
+                            <p className='labelValue' key={role}>{role}</p> )}
+                        </div>
                     </div>
                     <div className='projectDetailItem'>
                         <p className='label'>Tools</p>
-                        <p className='labelValue'>{props.tools} </p>
+                        <div>{props.tools.map(tool =>
+                            <p className='labelValue' key={tool}>{tool}</p> )}
+                        </div>
                     </div>
                     <div className='projectDetailItem'>
-                        <p className='label'>In Collab With</p>
-                        <p className='labelValue'>{props.collab}</p>
+                        <p className='label'>Collaboration</p>
+                        <div>{props.collab.map(collaborator =>
+                            <p className='labelValue' key={collaborator}>{collaborator}</p> )}
+                        </div>
                     </div>
             </div>
-            <h1>{props.title}</h1>
-            <p>{props.blurb}</p>
+
+            <div className='projectTitleDescription'>
+                <h1>{props.title}</h1>
+                <p>{props.blurb}</p>
+            </div>
+
+            </div>
 
             <hr></hr>
 

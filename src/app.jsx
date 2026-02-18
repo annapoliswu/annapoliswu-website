@@ -11,7 +11,11 @@ import Homepage from './jsx/pages/homepage';
 import Archive from './jsx/pages/archive';
 import About from './jsx/pages/about';
 import Fallback from './jsx/pages/fallback';
-import SimplySpeak from './jsx/pages/simplyspeak';
+
+import SimplySpeak from './jsx/pages/projectPages/simplyspeak';
+import Soundboard from './jsx/pages/projectPages/soundboard';
+import MavisVehiclePages from './jsx/pages/projectPages/mavisVehiclePages';
+import Veridium from './jsx/pages/projectPages/veridium';
 
 // all pages must be added to routes below
 function App(props) {
@@ -28,6 +32,9 @@ function App(props) {
                         <Route path="*" element={<Fallback/>} />
 
                         <Route path="/simplyspeak" element={<SimplySpeak/>} />
+                        <Route path="/soundboard" element={<Soundboard/>} />
+                        <Route path="/mavis-vehicle-pages" element={<MavisVehiclePages/>} />
+                        <Route path="/veridium" element={<Veridium/>} />
                     </Routes>
             </div>
         </BrowserRouter>

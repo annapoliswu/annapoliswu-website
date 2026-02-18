@@ -1,16 +1,11 @@
 @use './sharedVariables' as *;
 
 .projectContainer{
-    background-color: $surface-light;
-
     display: flex;
     flex-direction:column;
-    gap: .75rem;
-    padding: 5% 15%;
-
+    columns: 1fr;
 
     transition: linear 200ms;
-    
 }
 
 .projectCoverImg {
@@ -36,4 +31,52 @@
 
 .labelValue{
     color: $greyscale-500;
+}
+
+.projectOverview{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (width <= $mobile) {
+    .projectContainer{
+        padding: 0;
+    }
+    .projectDetails{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projectOverview{
+        flex-direction: column-reverse ;
+    }
+
+    .projectCoverImg{
+        aspect-ratio: 1.5;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (width > $mobile) {
+    .projectContainer{
+        padding: 0 0;
+    }
+
+    .projectOverview{
+        flex-direction: column-reverse ;
+    }
+
+}
+
+@media only screen and (width > $desktop){
+    .projectContainer{
+        gap: 1rem; //between item spacing
+        padding: 5% 10%;
+    }
+
+    .projectOverview{
+        flex-direction: column ;
+    }
 }

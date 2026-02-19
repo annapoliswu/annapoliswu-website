@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
         <footer>
-            <hr className='footerDivider'/>
+            <hr className='footerDivider'></hr>
             <div id='footerTop'>
             <div id='footerColumn'>
                 <p id='footerName'>Zihan Wu</p>
@@ -28,9 +28,7 @@ const Footer = () => {
             </div>
 
             <div id='footerBottom'>
-                <div id='footerCopyright'>
-                    <p>Built with <img id="footerHeart" src="img/icon-heart.svg" alt="love"/> in React © 2026 Zihan Wu</p>
-                </div>
+                <p>Built with <img id="footerHeart" src="img/icon-heart.svg" alt="love"/> in React © Zihan Wu 2026</p>
             </div>
 
         </footer>

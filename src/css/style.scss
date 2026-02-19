@@ -5,10 +5,12 @@ body,html {
     
     font-family: $font-default; //'Figtree';
     background: $surface-light;
-
+    
     margin: 0; //may or may not need on div also
     padding: 0; 
+    
 }
+
 
 html{
     scrollbar-gutter: stable;

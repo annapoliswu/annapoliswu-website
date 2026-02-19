@@ -1,0 +1,84 @@
+@use './sharedVariables' as *;
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    overflow-x: hidden;
+
+    background-color: $greyscale-100;
+}
+
+#footerTop{
+    max-width: $max-app-container;
+    padding: 80px 48px;
+}
+
+#footerBottom{
+    padding: 12px 0px;
+    margin-top: 24px;
+    font-size: 12px;
+}
+
+#footerBottom p{
+    color: $brand-500;
+    font-style: italic;
+    font-kerning: 2px;
+}
+
+#footerTop{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#footerBottom{
+    width: 100%;
+    text-align: center;
+    background-color: $brand-200;
+}
+
+#footerNav{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#footerNav a{
+    text-decoration: none;
+}
+
+#footerSocials{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footerIcon{
+    height: 32px;
+    width: 32px;
+    border-radius: 0;
+}
+
+#footerName{
+    font-weight: 700;
+    font-family: $font-script;
+    color: $brand-500;
+    font-size: x-large;
+}
+
+#footerColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#footerHeart{
+    height: 12px;
+    width: 12px;
+}

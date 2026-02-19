@@ -7,6 +7,8 @@ import { createBrowserRouter, RouterProvider, Route, Outlet, ScrollRestoration }
 //import FeaturedCard from './components/featured_card';
 
 import Navbar from './jsx/components/navbar';
+import Footer from './jsx/components/footer';
+
 import Homepage from './jsx/pages/homepage';
 import Archive from './jsx/pages/archive';
 import About from './jsx/pages/about';
@@ -25,6 +27,7 @@ const AppLayout = () => (
             <Outlet />
             <ScrollRestoration />
         </div>
+        <Footer />
     </>
 );
 

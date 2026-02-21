@@ -13,11 +13,11 @@ const Button = (props) => {
         rightIcon = <img className="btn-icon right" src={props.rightIcon}/>
     }
     return(
-        <div className={"btn-container " + props.btnType}>
+        <Link className={"btn-container " + props.btnType}>
             {leftIcon}
-            <Link className="btn btn-text" to={props.link}> {props.text} </Link>
+            <p className="btn btn-text" to={props.link}> {props.text} </p>
             {rightIcon}
-        </div>
+        </Link>
     );
 }
 

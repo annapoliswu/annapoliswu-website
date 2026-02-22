@@ -8,6 +8,7 @@
     transition: linear 200ms;
 }
 
+
 .projectCoverImg {
     height: 400px;
     object-fit: cover;
@@ -36,6 +37,20 @@
 .projectOverview{
     display: flex;
     flex-direction: column;
+}
+
+.projectTitleDescription{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.projectContent{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 @media only screen and (width <= $mobile) {

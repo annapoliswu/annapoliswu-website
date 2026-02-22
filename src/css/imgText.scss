@@ -4,10 +4,51 @@
 .imgTextContainer{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 4rem;
     align-items: center;
+    margin: 4rem 0;
 }
 
 .imgTextImage{
-    height: 500px;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.imgTextContainer.right{
+    flex-direction: row-reverse;
+}
+
+.imgTextContentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+@media only screen and (width <= $mobile) {
+    .imgTextContainer, .imgTextContainer.right{
+        flex-direction: column;
+        gap: 2rem;
+        margin: 2rem 0;
+    }
+
+    .imgTextImage{
+        max-height: 500px;
+        max-width: 100%;
+        width: auto;
+    }
+}
+
+@media screen and ($mobile < width <= $desktop) {
+    .imgTextContainer, .imgTextContainer.right{
+        margin: 2rem 0;
+    }
+
+    .imgTextImage{
+        max-height: 500px;
+        max-width: 50%;
+    }
+    .imgTextContainer{
+        gap: 2rem;
+    }
 }

@@ -4,6 +4,7 @@ import'../../css/button.scss';
 
 
 const Button = (props) => {
+
     let leftIcon = <img/>;
     if(props.leftIcon){
         leftIcon = <img className="btnIcon left" src={props.leftIcon}/>
@@ -13,7 +14,7 @@ const Button = (props) => {
         rightIcon = <img className="btnIcon right" src={props.rightIcon}/>
     }
     return(
-        <Link className={"btnContainer " + props.btnType} to={props.link}>
+        <Link className={"btnContainer " + props.btnType} to={props.link} target={props.newTab ? "_blank" : ""} rel={props.newTab ? "noopener noreferrer" : ""}>
             {leftIcon}
             <p className="btnText" > {props.text} </p>
             {rightIcon}

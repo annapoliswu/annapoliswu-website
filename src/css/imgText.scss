@@ -1,0 +1,13 @@
+@use './sharedVariables' as *;
+
+
+.imgTextContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+.imgTextImage{
+    height: 500px;
+}

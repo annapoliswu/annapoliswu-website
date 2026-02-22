@@ -13,9 +13,9 @@ const Button = (props) => {
         rightIcon = <img className="btn-icon right" src={props.rightIcon}/>
     }
     return(
-        <Link className={"btn-container " + props.btnType}>
+        <Link className={"btn-container " + props.btnType} to={props.link}>
             {leftIcon}
-            <p className="btn btn-text" to={props.link}> {props.text} </p>
+            <p className="btn btn-text" > {props.text} </p>
             {rightIcon}
         </Link>
     );

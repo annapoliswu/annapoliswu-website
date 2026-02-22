@@ -6,16 +6,16 @@ import'../../css/button.scss';
 const Button = (props) => {
     let leftIcon = <img/>;
     if(props.leftIcon){
-        leftIcon = <img className="btn-icon left" src={props.leftIcon}/>
+        leftIcon = <img className="btnIcon left" src={props.leftIcon}/>
     }
     let rightIcon = <img/>;
     if( props.rightIcon){
-        rightIcon = <img className="btn-icon right" src={props.rightIcon}/>
+        rightIcon = <img className="btnIcon right" src={props.rightIcon}/>
     }
     return(
-        <Link className={"btn-container " + props.btnType} to={props.link}>
+        <Link className={"btnContainer " + props.btnType} to={props.link}>
             {leftIcon}
-            <p className="btn btn-text" > {props.text} </p>
+            <p className="btnText" > {props.text} </p>
             {rightIcon}
         </Link>
     );
@@ -23,9 +23,9 @@ const Button = (props) => {
 
 export const ScrollButton = (props) => {
     return(
-        <div className={"btn-container " + props.btnType} onClick={()=>{props.scrollRef
+        <div className={"btnContainer " + props.btnType} onClick={()=>{props.scrollRef
             .current.scrollIntoView({behavior: 'smooth', block: 'start' })}}>
-            <p className="btn btn-text">{props.text}</p>
+            <p className="btnText">{props.text}</p>
         </div>
     );
 

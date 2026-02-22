@@ -1,6 +1,6 @@
 @use './sharedVariables' as *;
 
-.home-hero-container{
+.homeHeroContainer{
     display: flex;
     flex-direction: column;
     justify-content: top;
@@ -13,7 +13,7 @@
     background-color: white;
 }
 
-.home-hero-background-text{
+.homeHeroBackgroundText{
     width: 100%;
     text-align: center;
     font-family: $font-chinese;
@@ -32,13 +32,13 @@
     cursor: default;
 }
 
-.home-hero-title, .home-hero-blurb{
+.homeHeroTitle, .homeHeroBlurb{
     color: $text-default;
     text-align: center;
     z-index: 2;
 }
 
-.home-hero-title{
+.homeHeroTitle{
     font-size: 3.5rem;
     font-family: $font-script;
     color: $brand-500;
@@ -46,11 +46,11 @@
 
 @media only screen and (width <= $mobile) {
 
-    .home-hero-container{
+    .homeHeroContainer{
         height:auto;
     }
 
-    .home-hero-title{
+    .homeHeroTitle{
         font-size: 2.5rem;
     }
 

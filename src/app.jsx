@@ -23,7 +23,7 @@ import Veridium from './jsx/pages/projectPages/veridium';
 const AppLayout = () => (
     <>
         <Navbar />
-        <div className='app-container'>  
+        <div className='appContainer'>  
             <Outlet />
             <ScrollRestoration />
         </div>

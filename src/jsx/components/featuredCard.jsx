@@ -10,9 +10,9 @@ const FeaturedCard = (props) => {
         <ScrollReveal animationType="fade" delay={100} once={false}>
                 <div className='featuredCardContainer' >
                     <Link className="featuredCardLink" to={props.link}>
-                    <img className='featuredCardImage' src={props.imgSrc}></img>
-                    <h2 className='project-title font-lg'>{props.title}</h2>
-                    <p className='project-blurb font-md'>{props.blurb}</p>
+                    <img className='featuredCardImage' src={props.imageSrc}></img>
+                    <h2 className='projectTitle font-lg'>{props.title}</h2>
+                    <p className='projectBlurb font-md'>{props.blurb}</p>
                     </Link>
                     <Button link={props.link} text="Read More" />
                 </div>

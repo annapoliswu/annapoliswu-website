@@ -1,6 +1,6 @@
 @use './sharedVariables' as *;
 
-.btn-container{
+.btnContainer{
     height:30px;
     width: fit-content;
     padding:8px 24px;
@@ -14,12 +14,12 @@
     cursor: pointer;
 }
 
-.btn-container , .btn-text{
+.btnContainer , .btnText{
     text-decoration: none;
     font-weight: 700;
 }
 
-.btn-icon{
+.btnIcon{
     height: 30px;
     width:30px;
     background-color: white;
@@ -28,21 +28,21 @@
 
 
 
-.btn-container{
+.btnContainer{
     border: 1.75px solid $greyscale-500;
     background-color: transparent;
 }
 
-.btn-container > .btn-text{
+.btnContainer > .btnText{
     color: $text-default;
 }
 
-.btn-container:hover{
+.btnContainer:hover{
     background-color: $brand-500;
     border-color: $brand-500;
 }
 
-.btn-container:hover > .btn-text{
+.btnContainer:hover > .btnText{
     color: $text-invert;
 }
 
@@ -52,11 +52,11 @@
     border-color: $brand-500;
 }
 
-.btn-container.secondary > .btn-text{
+.btnContainer.secondary > .btnText{
     color: $text-invert;
 }
 
-.btn-container.secondary:hover{
+.btnContainer.secondary:hover{
     background-color: $brand-400;
 }
 
@@ -64,16 +64,16 @@
 
 
 
-.btn-container.tertiary{
+.btnContainer.tertiary{
     border: 1px solid $greyscale-100;
     background-color: transparent;
 }
 
-.btn-container.tertiary > .btn-text{
+.btnContainer.tertiary > .btnText{
     color: $text-invert;
 }
 
-.btn-container.tertiary:hover{
+.btnContainer.tertiary:hover{
     background-color: $brand-600;
 
 }

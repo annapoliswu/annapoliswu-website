@@ -64,14 +64,14 @@ hr {
     border-color: $greyscale-200;
 } 
 
-.app-container{
+.appContainer{
     max-width: $max-app-container;
 }
 
 
 //mobile devices
 @media only screen and (width <= $mobile) {
-    .app-container{
+    .appContainer{
         margin: 24px;
     }
         
@@ -101,48 +101,11 @@ hr {
     .font-xs {
         font-size: $f-xs;
     }
-
-    .padding-lg{
-        padding: $spacing-md;
-    }
-    .padding-md{
-        padding: $spacing-sm;
-    }
-    .padding-sm{
-        padding: $spacing-xs;
-    }
-
-    .padding-x-lg{
-        padding-left: $spacing-md;
-        padding-right: $spacing-md;
-    }
-    .padding-x-md{
-        padding-left: $spacing-sm;
-        padding-right: $spacing-sm;
-    }
-    .padding-x-sm{
-        padding-left: $spacing-xs;
-        padding-right: $spacing-xs;
-    }
-
-    .padding-y-lg{
-        padding-top: $spacing-md;
-        padding-bottom: $spacing-md;
-    }
-    .padding-y-md{
-        padding-top: $spacing-sm;
-        padding-bottom: $spacing-sm;
-    }
-    .padding-y-sm{
-        padding-top: $spacing-xs;
-        padding-bottom: $spacing-xs;
-    }
-
 }
 
 // mobile and up 
 @media only screen and (width > $mobile) {
-    .app-container{
+    .appContainer{
         margin: 0px 100px;
     }
 
@@ -174,7 +137,7 @@ hr {
 
 // widescreen
 @media only screen and (width > $desktop){
-    .app-container{
+    .appContainer{
         margin: 0px auto 0px auto;
     }
 }

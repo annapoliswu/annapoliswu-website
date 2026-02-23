@@ -30,7 +30,7 @@
     .imgTextContainer, .imgTextContainer.right{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 2rem 0;
+        margin: 3rem 0;
     }
 
     .imgTextImage{
@@ -43,8 +43,10 @@
     }
 }
 
+
 @media only screen and (width <= $mobile) {
     .imgTextContainer, .imgTextContainer.right{
+        display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 2rem;
@@ -53,6 +55,7 @@
 
     .imgTextImage{
         max-height: 500px;
+        max-width: 100%;
         width: auto;
     }
 }

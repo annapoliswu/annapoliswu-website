@@ -44,6 +44,9 @@ footer{
     border-radius: 0;
 }
 
+.footerIcon:hover{
+    filter: $brand-filter;
+}
 
 
 #footerNav{
@@ -83,6 +86,7 @@ footer{
 #footerHeart{
     height: 12px;
     width: 12px;
+    filter: $brand-filter;
 }
 
 

@@ -3,6 +3,7 @@ import Project from '../project';
 import ProjectData from '../../data/projectData';
 import ImgText from '../../components/imgText';
 import Button from '../../components/button';
+import InfoHighlight from '../../components/infoHighlight';
 
 function SimplySpeak(props) {
     let data = ProjectData.get("simplyspeak");
@@ -13,6 +14,14 @@ function SimplySpeak(props) {
             <Project {...data}>
                 <h2>SimplySpeak Project Page</h2>
                 <p>This is extra content inside the SimplySpeak project page.</p>
+
+                <InfoHighlight 
+                infoHighlightItems={[
+                    {icon:"img/icon-email.svg", label:"Problem", description:"This is the description for the info highlight component."},
+                    {icon:"img/icon-github.svg", label:"Constraints", description:"This is the description for the info highlight numero 2."},
+                    {icon:"img/icon-linkedin.svg", label:"Users", description:"This is the description for the info highlight numero 2."},]}>
+                </InfoHighlight>
+
                 <ImgText 
                 imgSrc={"img/test-img.png"} 
                 imgPosition={"left"}

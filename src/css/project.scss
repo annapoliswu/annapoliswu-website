@@ -25,6 +25,14 @@
     border-radius: $rounded;
 }
 
+.subheading{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-weight: 500;
+    color: $brand-500;
+}
+
 .label{
     font-weight: 700;
     color: $text-default;

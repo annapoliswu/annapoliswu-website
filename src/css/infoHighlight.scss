@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
 
 .infoHighlightItem{
@@ -34,4 +34,10 @@
 .infoHighlightDescription{
     color: $text-default;
     text-align: center;
+}
+
+@media only screen and (width <= $mobile) {
+    .infoHighlightContainer{
+        margin: 1rem 0;
+    }
 }

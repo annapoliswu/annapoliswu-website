@@ -11,6 +11,7 @@ const ImgText = (props) => {
         <div className={"imgTextContainer " + props.imgPosition}>
             <ZoomImg className="imgTextImage" imgSrc={props.imgSrc} imgWidth={props.imgWidth} alt={props.alt}/>
             <div className="imgTextContentContainer">
+                <h3 className='subheading'>{props.subtitle}</h3>
                 <h2 className="imgTextTitle" > {props.title} </h2>
                 <p className="imgTextDescription" > {props.description} </p>
                 {props.children}

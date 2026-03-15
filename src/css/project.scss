@@ -1,5 +1,40 @@
 @use './sharedVariables' as *;
 
+img{
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
+table{
+    text-align: left;
+    border-collapse: separate;
+    border-radius: 8px;
+    border: 1px solid $brand-400;
+    margin: 3rem 0;
+}
+
+
+
+td, th {
+    text-align: left;
+    padding: 12px;
+}
+th{ background-color: $brand-200; color: $brand-500;}
+
+.projectContainer a{
+    color: $brand-500;
+    font-weight: 700;
+    text-decoration-color: #FFFFFF00;
+    transition: ease-in-out 150ms;
+}
+
+.projectContainer a:hover{
+    color: $brand-700;
+    text-decoration: underline;
+    text-decoration-color: $brand-700;
+}
+
 .projectContainer{
     display: flex;
     flex-direction:column;
@@ -23,14 +58,6 @@
     padding: $spacing-lg 0;
     gap: .5rem;
     border-radius: $rounded;
-}
-
-.subheading{
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: .5rem;
-    font-weight: 500;
-    color: $brand-500;
 }
 
 .label{
@@ -78,6 +105,14 @@
         aspect-ratio: 1.5;
         width: 100%;
         height: auto;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    table, img{
+        margin: 1rem 0;
     }
 
 }

@@ -6,7 +6,7 @@ import '../../css/reactMediumImageZoom.scss';
 const ZoomImg = (props) => {
     return(
     <Zoom >
-        <img className={props.className} src={props.imgSrc} width={props.imgWidth} height={props.imgHeight} alt={props.alt} />
+        <img className={"zoomImg " +props.className} src={props.imgSrc} width={props.imgWidth} height={props.imgHeight} alt={props.alt} />
     </Zoom>
 )};
 

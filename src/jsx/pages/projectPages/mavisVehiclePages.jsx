@@ -1,9 +1,5 @@
 import React from 'react';
 import Project from '../project';
-import ProjectData from '../../data/projectData';
-import InfoHighlight from '../../components/infoHighlight';
-import ImgText from '../../components/imgText';
-import ZoomImg from '../../components/zoomImg';
 
 function MavisVehiclePages(props) {
     let data = ProjectData.get("mavisVehiclePages");
@@ -94,21 +90,21 @@ function MavisVehiclePages(props) {
                     imgSrc={"img/vhp-hero.gif"}
                     imgPosition={"left"}
                     title={"Personalized Hero Section"}
-                    description={"The hero section transitions from a generic car to the user's specific vehicle as the user searches, creating a more personalized experience while also allowing us to interlink our pages to boost SEO."}>
+                    description={"The hero section transitions from a generic car to the user's specific vehicle as the user searches, creating a more personalized experience, all while allowing us to interlink pages to boost SEO."}>
                 </ImgText>
 
                 <ImgText
                     imgSrc={"img/vhp-carousel.gif"}
                     imgPosition={"right"}
-                    title={"Product Suggestions"}
-                    description={"The tire carousel invites users with an alternative to browse tires without completing a search. We show users a range of prices and prompt for more information to get an exact pricing."}>
+                    title={"Accessible Product Suggestions"}
+                    description={"The tire carousel provides users with an alternative option to browse tires without completing a search. We show users a range of prices and prompt for more information to get an exact pricing."}>
                 </ImgText>
 
                 <ImgText
                     imgSrc={"img/vhp-notsure.gif"}
                     imgPosition={"left"}
                     title={"Re-routing for Unhappy Paths"}
-                    description={"We provide alternate paths for users who are unsure of their vehicle information, providing license plate lookup and other help links when necessary."}>
+                    description={"We provide alternate routes for users who are unsure of their vehicle information, providing license plate lookup and other help links when necessary."}>
                 </ImgText>
 
                 <ImgText

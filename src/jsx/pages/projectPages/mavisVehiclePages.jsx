@@ -1,5 +1,9 @@
 import React from 'react';
 import Project from '../project';
+import ProjectData from '../../data/projectData';
+import InfoHighlight from '../../components/infoHighlight';
+import ImgText from '../../components/imgText';
+import ZoomImg from '../../components/zoomImg';
 
 function MavisVehiclePages(props) {
     let data = ProjectData.get("mavisVehiclePages");
@@ -87,28 +91,28 @@ function MavisVehiclePages(props) {
                 <p>For final approval, I created <a href="https://www.figma.com/proto/D6wfyaKSWBgJSXg8rFGV7d/UI-UX-Requests--June---2025---1-?node-id=2338-197599&t=U47IB9OoZkTJeM84-1&scaling=scale-down&content-scaling=fixed&page-id=285%3A24285&starting-point-node-id=2338%3A197599&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">mobile prototypes</a> to present to leadership.</p>
 
                 <ImgText
-                    imgSrc={"img/vhp-hero.gif"}
+                    imgSrc={"img/vhp-hero-compressed.gif"}
                     imgPosition={"left"}
                     title={"Personalized Hero Section"}
                     description={"The hero section transitions from a generic car to the user's specific vehicle as the user searches, creating a more personalized experience, all while allowing us to interlink pages to boost SEO."}>
                 </ImgText>
 
                 <ImgText
-                    imgSrc={"img/vhp-carousel.gif"}
+                    imgSrc={"img/vhp-carousel-compressed.gif"}
                     imgPosition={"right"}
                     title={"Accessible Product Suggestions"}
                     description={"The tire carousel provides users with an alternative option to browse tires without completing a search. We show users a range of prices and prompt for more information to get an exact pricing."}>
                 </ImgText>
 
                 <ImgText
-                    imgSrc={"img/vhp-notsure.gif"}
+                    imgSrc={"img/vhp-notsure-compressed.gif"}
                     imgPosition={"left"}
                     title={"Re-routing for Unhappy Paths"}
                     description={"We provide alternate routes for users who are unsure of their vehicle information, providing license plate lookup and other help links when necessary."}>
                 </ImgText>
 
                 <ImgText
-                    imgSrc={"img/vhp-scroll.gif"}
+                    imgSrc={"img/vhp-scroll-compressed.gif"}
                     imgPosition={"right"}
                     title={"Informative Dynamic Content"}
                     description={"Dynamic FAQs, headings, and tables provide space for SEO keywords that change based on the page level."}>

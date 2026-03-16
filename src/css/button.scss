@@ -15,9 +15,10 @@
 }
 
 .btnContainer , .btnText{
-    text-decoration: none;
+    text-decoration: none !important;
     font-weight: 700;
 }
+
 
 .btnIcon{
     height: 30px;
@@ -75,5 +76,4 @@
 
 .btnContainer.tertiary:hover{
     background-color: $brand-600;
-
 }

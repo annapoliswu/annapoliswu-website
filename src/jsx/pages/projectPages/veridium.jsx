@@ -5,6 +5,7 @@ import ProjectData from '../../data/projectData';
 import InfoHighlight from '../../components/infoHighlight';
 import ImgText from '../../components/imgText';
 import ZoomImg from '../../components/zoomImg';
+import Button from '../../components/button';
 
 import SliderImg from '../../components/sliderImg';
 
@@ -27,10 +28,37 @@ function Veridium(props) {
             <h3 className="subheading">My role</h3>
             <h1>Working With Veridium</h1>
 
-            <p>I joined the Veridium project near the end of development, as a UX designer and technical 3D artist. Most of the initial conceptualization and development of the app had been completed by previous teams, and it was up to our team to test, polish, and ship the final product. </p>
-            <p>As a 3D artist, I was responsible for cleaning up placeholder assets and refining 3D environments. I refined the light maps for the the main environments, as well as modeled some background elements.</p>
+            <p>I joined the Veridium project near the end of development, as a <b>UX Designer</b> and <b>Technical 3D Artist</b>. Most of the initial conceptualization and development of the app had been completed by previous teams, and it was up to our team to test, polish, and ship the final product. </p>
+            <p>As a 3D artist, I refined exisiting environments ( lightmaps and textures ) and modeled background assets to replace placeholder ones.</p>
 
             <SliderImg leftImg={"img/veridium-before.jpg"} rightImg={"img/veridium-after.jpg"} />
+
+            <p>As a UX designer, my various responsibilities included: conducting usability testing to identify painpoints, scripting and filming the user manual video, and conducting research trials. </p>
+
+            <ImgText
+                imgSrc={"img/veridium-selector-wand.jpg"} 
+                imgWidth={"300px"}
+                imgPosition={"left"}
+                title={"Improving the Selection Tool"}
+                description={"In user testing, I found that the selector wand used in lessons was not intuitive for users. We changed this interaction to a standard raycast selection, improving experiences for first-time users."}
+            />
+
+            <ImgText
+                imgSrc={"img/veridium-user-manual.png"} 
+                imgWidth={"300px"}
+                imgPosition={"right"}
+                title={"Creating a User Manual"}
+                description={"To guide students and instructors during the research trials, I created a comprehensive user manual to help users install Veridium and use the VR headset effectively."}
+            > <Button text={"View User Manual Video"} link={"https://www.youtube.com/watch?v=xAVzm_0EwDY"} newTab={true}/></ImgText>
+
+            
+            <ImgText
+                imgSrc={"img/veridium-user-trials.jpg"} 
+                imgWidth={"400px"}
+                imgPosition={"left"}
+                title={"Conducting User Trials"}
+                description={"We conducted research trials with the students in Professor Mirica's chemistry class to test the learning outcomes of using Veridium."}
+            ><Button text={"View Research Publication"} link={"https://pubs.acs.org/doi/10.1021/acs.jchemed.4c01256"} newTab={true}/></ImgText>
         </Project>
     );
 };

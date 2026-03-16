@@ -14,7 +14,7 @@ const Button = (props) => {
         rightIcon = <img className="btnIcon right" src={props.rightIcon}/>
     }
     return(
-        <Link className={"btnContainer " + props.btnType} to={props.link} target={props.newTab ? "_blank" : ""} rel={props.newTab ? "noopener noreferrer" : ""}>
+        <Link className={"btnContainer " + (props.btnType || '')} to={props.link} target={props.newTab ? "_blank" : ""} rel={props.newTab ? "noopener noreferrer" : ""}>
             {leftIcon}
             <p className="btnText" > {props.text} </p>
             {rightIcon}
@@ -24,7 +24,7 @@ const Button = (props) => {
 
 export const ScrollButton = (props) => {
     return(
-        <div className={"btnContainer " + props.btnType} onClick={()=>{props.scrollRef
+        <div className={"btnContainer " + (props.btnType || '')} onClick={()=>{props.scrollRef
             .current.scrollIntoView({behavior: 'smooth', block: 'start' })}}>
             <p className="btnText">{props.text}</p>
         </div>

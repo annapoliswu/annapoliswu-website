@@ -2,6 +2,7 @@ import React from 'react';
 import '../../css/project.scss';
 
 
+
 function Project(props) {
     return (
         <div className='projectContainer'> 

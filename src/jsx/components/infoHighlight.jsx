@@ -7,7 +7,7 @@ import'../../css/infoHighlight.scss';
 const InfoHighlight = (props) => {
     return (
         <div className="infoHighlightContainer">
-            {props.infoHighlightItems.map((item) => {
+            {props.infoHighlightItems.map((key, item) => {
                 return (
                     <div className="infoHighlightItem">
                         {item.icon && <img className="infoHighlightIcon" src={item.icon}></img>}

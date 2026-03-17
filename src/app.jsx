@@ -32,7 +32,7 @@ const AppLayout = () => (
 );
 
 const router = createBrowserRouter([
-    {
+    {  
         element: <AppLayout />,
         children: [
             {
@@ -68,8 +68,8 @@ const router = createBrowserRouter([
                 element: <Fallback />,
             },
         ]
-
-    }]);
+    }],{basename: import.meta.env.BASE_URL}
+);
 
 
 // all pages must be added to routes below

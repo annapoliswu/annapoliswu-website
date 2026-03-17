@@ -37,31 +37,35 @@ function MavisVehiclePages(props) {
                 <p>We found that top ranking sites would capture all 4 levels of vehicle information users would search. </p>            
                                 
                 <table>
-                <tr>
-                    <th>Lv</th>
-                    <th>Information</th>
-                    <th>Example</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Make</td>
-                    <td>Honda Tires</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Make Model</td>
-                    <td>Honda Civic Tires</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Make Model Year</td>
-                    <td>2020 Honda Civic Tires</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Make Model Year Trim</td>
-                    <td>2020 Honda Civic EX Tires</td>
-                </tr>
+                    <thead>
+                        <tr>
+                            <th>Lv</th>
+                            <th>Information</th>
+                            <th>Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Make</td>
+                            <td>Honda Tires</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Make Model</td>
+                            <td>Honda Civic Tires</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Make Model Year</td>
+                            <td>2020 Honda Civic Tires</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Make Model Year Trim</td>
+                            <td>2020 Honda Civic EX Tires</td>
+                        </tr>
+                    </tbody>
                 </table>
 
                 <p>Sites on the first page of Google had built pages for each of the 4 levels and would interlink these pages, boosting search ranking by allowing users to visit each level whilst continuing their search.</p>

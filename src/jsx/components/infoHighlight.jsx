@@ -7,9 +7,9 @@ import'../../css/infoHighlight.scss';
 const InfoHighlight = (props) => {
     return (
         <div className="infoHighlightContainer">
-            {props.infoHighlightItems.map((key, item) => {
+            {props.infoHighlightItems.map((item, index) => {
                 return (
-                    <div className="infoHighlightItem">
+                    <div className="infoHighlightItem" key={index + item.label}>
                         {item.icon && <img className="infoHighlightIcon" src={item.icon}></img>}
                         {item.label && <p className="infoHighlightLabel" > {item.label} </p> }
                         {item.description && <p className="infoHighlightDescription" > {item.description} </p>}

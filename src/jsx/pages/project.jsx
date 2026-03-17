@@ -7,7 +7,7 @@ function Project(props) {
     return (
         <div className='projectContainer'> 
             
-            <img className="projectCoverImg" src={props.thumbnail}></img>
+            <img className="projectCoverImg" src={props.cover}></img>
 
             <div className='projectOverview'>
                 <div className='projectDetails'>

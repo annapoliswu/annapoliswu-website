@@ -8,8 +8,8 @@ export const ProjectData = new Map([
         tags: ["Featured","UI/UX"],
         blurb: "Creating new entry points for customers searching for products by vehicle information.",
         link: "/mavis-vehicle-pages",
-        thumbnail: 'img/mavis-thumbnail.jpg',
-        cover: 'img/mavis-cover.jpg'}],
+        thumbnail: 'img/vhp-thumbnail.jpg',
+        cover: 'img/vhp-cover.jpg'}],
 
     ["simplyspeak",  {
         title: "SimplySpeak App",
@@ -21,7 +21,7 @@ export const ProjectData = new Map([
         blurb: "Zero to one design of an app that helps English as a second language learners in career development.",
         link: "/simplyspeak",
         thumbnail: 'img/simplyspeak-thumbnail.jpg',
-        cover: 'img/simplyspeak-cover.jpg'}],
+        cover: 'img/simplyspeak-thumbnail.jpg'}],
 
     ["veridium",  {
         title: "Veridium",
@@ -33,7 +33,7 @@ export const ProjectData = new Map([
         blurb: "Improving interactions and learning outcomes for a VR application that teaches solid state chemistry concepts.",
         link: "/veridium",
         thumbnail: 'img/veridium-thumbnail.jpg',
-        cover: 'img/veridium-cover.jpg'}],
+        cover: 'img/veridium-thumbnail.jpg'}],
 
     ["soundboard", {
         title: "Soundboard App",
@@ -45,7 +45,7 @@ export const ProjectData = new Map([
         blurb: "Developing an Android app for sound designers to share soundbytes.",
         link: "/soundboard",
         thumbnail: 'img/soundboard-thumbnail.jpg',
-        cover: 'img/soundboard-cover.jpg'}]
+        cover: 'img/soundboard-thumbnail.jpg'}]
 ]);
 
 export default ProjectData;

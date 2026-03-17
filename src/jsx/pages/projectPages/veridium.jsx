@@ -59,6 +59,13 @@ function Veridium(props) {
                 title={"Conducting User Trials"}
                 description={"We conducted research trials with the students in Professor Mirica's chemistry class to test the learning outcomes of using Veridium."}
             ><Button text={"View Research Publication"} link={"https://pubs.acs.org/doi/10.1021/acs.jchemed.4c01256"} newTab={true}/></ImgText>
+        
+            <hr/>
+            <h3 className="subheading">Testing</h3>
+            <h1>Research Trial Methodology</h1>
+
+            <ZoomImg imgSrc={"img/veridium-research-methodology.jpg"}/>
+        
         </Project>
     );
 };

@@ -73,7 +73,12 @@ function MavisVehiclePages(props) {
                 
                 <p>To compete, we aim to <b>provide more comprehensive information for each level</b>, while still engaging customers. We compiled the most useful features from vehicle pages to base our designs off of.</p>
                 <ZoomImg imgSrc={"img/vhp-market-research-features.jpg"} alt={"Various features from the vehicle pages of top ranking sites."}/>
-                
+                <ol>
+                    <li>Tire model recommendations based on vehicle.</li>
+                    <li>Guide on with how to find your tire size.</li>
+                    <li>FAQs and vehicle specfic information.</li>
+                    <li>Linked pages for vehicle year and trim levels.</li>
+                </ol>
                 
                 <hr/>
 

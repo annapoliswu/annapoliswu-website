@@ -87,7 +87,7 @@ function MavisVehiclePages(props) {
                 <p>We want to engage users to enter the rest of their vehicle information, so we design to immediately connect with users through a <b>recognizable visual of their vehicle.</b></p>
                 <ZoomImg imgSrc={"img/vhp-design-iteration.jpg"} alt={"Greyscale designs of the desktop make, model, and trim level vehicle pages."}/>
 
-                <p>Most of our site visitors will not scroll past 1/2 the page, so we keep the most engaging content, such as deals and tire suggestions, higher up. </p>
+                <p>Most of our site visitors will not scroll past 1/2 the page, so we keep the most engaging content, such as tire suggestions and deals, higher up. </p>
                 <ZoomImg imgSrc={"img/vhp-design-iteration-2.jpg"} alt={"Polished desktop and mobile mockups of the vehicle pages."}/>
                 
                 <p>The rest of the page is rich with SEO content, as well as additional points for users to select YEAR or TRIM to further their tire search.</p>
@@ -124,7 +124,7 @@ function MavisVehiclePages(props) {
                     imgSrc={"img/vhp-scroll-compressed.gif"}
                     imgPosition={"right"}
                     title={"Informative Dynamic Content"}
-                    description={"Dynamic FAQs, headings, and tables provide space for SEO keywords that change based on the page level."}>
+                    description={"Dynamic FAQs, headings, and tables provide space for SEO keywords that change based on the vehicle and page level."}>
                 </ImgText>
 
                 <hr/>
@@ -134,9 +134,9 @@ function MavisVehiclePages(props) {
 
                 <p>Design-wise, I learned a great deal about scaling to accommodate dynamic content, as well as striking a balance between designing for usability and SEO. Though we worked with our developer early in the process, other challenges still surfaced when talking over the technical implementation.</p>
                 <ol>
-                    <li>Vehicles makes varied widely in number of trims and production years, so I had to ensure designs still looked good with anywhere from 5-40 items. </li>
-                    <li>The pages still had to be engaging to users with a large amount of content for SEO, so I learned how to best <b>organize information hierarchically.</b></li>
-                    <li>We needed to create templated copy blocks for each level, so developers could insert dynamic keywords and generate content <b>to scale for 1000's of pages.</b></li>
+                    <li>Vehicle makes varied widely in number of trims and production years. Designs had to account for anywhere between 5-40 items, without looking too sparse or too cluttered.</li>
+                    <li>Because pages had to be engaging to users and hold a large amount of SEO content, I learned how to best prioritize information and <b>organize content hierarchically.</b></li>
+                    <li>We created templated copy blocks for each level, so developers could insert dynamic keywords and generate content <b>to scale for 1000's of pages.</b></li>
                     <li>We had to find sources for brand new content, resulting in us contracting an outside vendor for vehicle images, in addition to building our own libraries for logos and vehicle composites.</li>
                 </ol>
 

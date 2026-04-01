@@ -58,8 +58,8 @@ function Veridium(props) {
             ><Button text={"View Research Publication"} link={"https://pubs.acs.org/doi/10.1021/acs.jchemed.4c01256"} newTab={true}/></ImgText>
         
             <hr/>
-            <h3 className="subheading">Testing</h3>
-            <h1>Research Trial Methodology</h1>
+            <h3 className="subheading">Testing Trials</h3>
+            <h1>Research Methodology</h1>
 
             <p>To draw a fair comparison, we test our VR learning experience against the same lesson with analog 3D clay models, eliminating the outlying factor of comparing 3D teaching methods to 2D ones.</p>
             <ZoomImg imgSrc={"img/veridium-research-methodology.jpg"}/>
@@ -123,6 +123,15 @@ function Veridium(props) {
             <hr/>
             <h3 className="subheading">Conclusion</h3>
             <h1>Challenges and Takeaways</h1>
+            <p>This was a fantastic first term at DALI Labs and I wouldn't have had it any other way! Throughout my time with the product, I learned a great deal about refining work, as well as the shipping process for VR apps.</p>
+ 
+            <ol>
+                <li>Working with an existing product, I learned to understand the <b>history of design decisions</b> and limitations of prior teams.</li>
+                <li>Funnily enough, this was my second time working on a product in chemistry and education. I enjoyed seeing the differences between designing for <b>K-12 vs college audiences</b>, in addition to learning from subject matter experts. </li>
+                <li>The research methodologies I learned, with the advisement of professors in the field, helped me <b>formulate future testing approaches</b>, especially for my own M.S. thesis in the coming years. </li>
+            </ol>
+
+            <ZoomImg imgSrc={"img/dali-team-1.jpg"} alt={"Photo of Veridium with the entire DALI team near the time I joined."}/>
 
         </Project>
     );

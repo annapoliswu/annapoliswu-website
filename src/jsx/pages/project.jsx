@@ -28,7 +28,7 @@ function Project(props) {
                             </div>
                         </div>
                         <div className='projectDetailItem'>
-                            <p className='label'>Collaboration</p>
+                            <p className='label'>Team</p>
                             <div>{props.collab.map(collaborator =>
                                 <p className='labelValue' key={collaborator}>{collaborator}</p> )}
                             </div>

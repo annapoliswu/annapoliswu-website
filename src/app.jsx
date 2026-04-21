@@ -18,6 +18,7 @@ import SimplySpeak from './jsx/pages/projectPages/simplyspeak';
 import Soundboard from './jsx/pages/projectPages/soundboard';
 import MavisVehiclePages from './jsx/pages/projectPages/mavisVehiclePages';
 import Veridium from './jsx/pages/projectPages/veridium';
+import MavisCheckout from './jsx/pages/projectPages/mavisCheckout';
 
 
 const AppLayout = () => (
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
             {
                 path: '/mavis-vehicle-pages',
                 element: <MavisVehiclePages />,
+            },
+            {
+                path: '/mavis-checkout-enhancements',
+                element: <MavisCheckout />,
             },
             {
                 path: '/simplyspeak',

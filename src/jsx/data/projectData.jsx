@@ -11,6 +11,18 @@ export const ProjectData = new Map([
         thumbnail: 'img/vhp-thumbnail.jpg',
         cover: 'img/vhp-cover.jpg'}],
 
+    ["mavisCheckout", {
+        title: "Mavis Checkout Enhancements",
+        timeFrame: "2025",
+        role: ["UI/UX Lead"],
+        tools: ["Figma"],
+        collab: ["Web Developers"],
+        tags: ["Featured","UI/UX"],
+        blurb: "Increased tire CVR by 64% through product listing redesigns and scheduling funnel optimizations.",
+        link: "/mavis-checkout-enhancements",
+        thumbnail: 'img/mavis-thumbnail.jpg',
+        cover: 'img/mavis-thumbnail.jpg'}],
+
     ["simplyspeak",  {
         title: "SimplySpeak App",
         timeFrame: "2024",
@@ -30,10 +42,10 @@ export const ProjectData = new Map([
         tools: ["Unity", "Maya"],
         collab: ["3 VR Developers", "3D Modeler"],
         tags: ["Featured","UI/UX", "AR/VR"],
-        blurb: "Improving interactions and learning outcomes for a VR application that teaches solid state chemistry concepts.",
+        blurb: "Improving interactions and evaluating learning outcomes for an educational solid state chemistry VR application.",
         link: "/veridium",
         thumbnail: 'img/veridium-thumbnail.jpg',
-        cover: 'img/veridium-thumbnail.jpg'}],
+        cover: 'img/veridium-2.png'}],
 
     ["soundboard", {
         title: "Soundboard App",

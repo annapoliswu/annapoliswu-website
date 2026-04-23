@@ -18,7 +18,7 @@ export const ProjectData = new Map([
         tools: ["Figma"],
         collab: ["Web Developers"],
         tags: ["Featured","UI/UX"],
-        blurb: "Increased tire CVR by 64% through product listing redesigns and scheduling funnel optimizations.",
+        blurb: "Increased tire checkouts by 46.8% YoY through product listing redesigns and scheduling funnel optimizations.",
         link: "/mavis-checkout-enhancements",
         thumbnail: 'img/mavis-thumbnail.jpg',
         cover: 'img/mavis-thumbnail.jpg'}],

@@ -4,6 +4,7 @@ import ProjectData from '../../data/projectData';
 import InfoHighlight from '../../components/infoHighlight';
 import ImgText from '../../components/imgText';
 import ZoomImg from '../../components/zoomImg';
+import Button from '../../components/button';
 
 function MavisCheckout(props) {
     let data = ProjectData.get("mavisCheckout");
@@ -60,8 +61,8 @@ function MavisCheckout(props) {
                     imgSrc={"img/mt-checkout-results-issue-3.jpg"} 
                     imgWidth={"200"}
                     imgPosition={"right"}
-                    title={"Few Results Depending on Vehicle"}
-                    description={"Default quick filter tabs would often yield very few results, with no indication as to how many results would be shown until users clicked into a tab. This left a negative impression that we had very limited inventory."}>
+                    title={"Few Default Results"}
+                    description={"Quick filter tabs would often yield very few results, with no indication as to how many results would be shown until users clicked into a tab. This left a negative impression and a perception of very low inventory."}>
                 </ImgText>
 
                 <ImgText
@@ -69,7 +70,7 @@ function MavisCheckout(props) {
                     imgWidth={"300"}
                     imgPosition={"left"}
                     title={"Filters Click Rate"}
-                    description={"Due to the numerous issues with the tabs, along with lower click rates, we simplify the filters experience into a single button."}>
+                    description={"Due to the numerous issues with the tabs, along with lower tab click rates, we simplify the filters experience into a single button."}>
                 </ImgText>
 
                 <p>Heatmaps of the page indicate that 50% of users stopped just past the first row of tire results and that most users' attention was focused on the prices and CTAs.</p>
@@ -80,7 +81,7 @@ function MavisCheckout(props) {
 
                 <ZoomImg imgSrc={"img/mt-checkout-tire-results.jpg"} />
 
-                <p>We additionally reduced the height of the product card to allow for more products to show at once, keeping the most important tire specs as indicated from previous user interviews.</p>
+                <p>We additionally reduced the height of the product card to allow for more products to show at once, keeping the most valued tire specs indicated by previous user interviews.</p>
 
                 <ZoomImg imgSrc={"img/mt-checkout-tire-card-height.jpg"} />
 
@@ -91,10 +92,10 @@ function MavisCheckout(props) {
 
                 <p>We clearly display the new online promotion marketing planned to launch through strikethroughs.</p>
 
-                <p>Though a simple solution at first, we quickly realized that we had multiple combinations of deals and vehicle fitment types, leading us to define 10 different card states. </p>
+                <p>Though a simple solution at first, we quickly realized that we had multiple combinations of deals and vehicle fitment types, leading us to define over <b>10 different card states.</b> </p>
                 <ZoomImg imgSrc={"img/mt-checkout-tire-card-variations.jpg"} />
 
-                <p>To further carry the deals through to checkout, we brainstorm various ways to highlight the savings value at cart stage and continue iteration on option 5.</p>
+                <p>To further carry the deals through to checkout, we brainstorm various ways to highlight the savings value at the cart stage and continue iteration on option 5.</p>
                 <ZoomImg imgSrc={"img/mt-checkout-cart-variations.jpg"} />
 
                 <p>For the final cart design, we add radio buttons to more clearly indicate selectability, showcase free services included before fees, and display the earliest tire availability date.</p>
@@ -108,19 +109,37 @@ function MavisCheckout(props) {
                 <h3 className="subheading">Auditing the flow</h3>
                 <h1>Resolving Painpoints</h1>
 
+                <p>In my October UX audit, I identified several areas of user frustration in the checkout flow and recommended solutions. View the <a href="https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m" target="_blank" rel="noopener noreferrer">full report here</a>.</p>
+                <ZoomImg imgSrc={"img/ux-audit-01.jpg"} />
+                <ZoomImg imgSrc={"img/ux-audit-02.jpg"} />
+                <ZoomImg imgSrc={"img/ux-audit-09.jpg"} />
+                <ZoomImg imgSrc={"img/ux-audit-10.jpg"} />
+                <ZoomImg imgSrc={"img/ux-audit-11.jpg"} />
+                <div style={{display: 'flex', justifyContent: 'center'}}><Button text={"View Full Report"} link={"https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m"} btnType={"primary"} newTab={true}></Button></div>
+
                 <hr/>
+
+                <h3 className="subheading">The Impact</h3>
+                <h1>More Online Reservations</h1>
+
+                <p>The product result and cart changes were released February 18th. Since then, we've seen a <b>significant increase in online reservations</b> which has persisted over 3 months. </p>
+                <ZoomImg imgSrc={"img/mt-checkout-rolling-stats.png"} />
+
+                <p>In March, we saw a <b>46.8% increase</b> in reservations and a <b>22.1% increase</b> in CVR, compared to last year. </p>
+                <ZoomImg imgSrc={"img/mt-checkout-march-graph.jpg"} />
+                <p>As we roll out further improvements to the checkout experience, we continue to see higher percentages of users continue through to each step. </p>
+                <hr/>
+
                 <h3 className="subheading">Conclusion</h3>
                 <h1>Challenges and Takeaways</h1>
 
-                <p>Design-wise, I learned a great deal about scaling to accommodate dynamic content, as well as striking a balance between designing for usability and SEO. Though we worked with our developer early in the process, other challenges still surfaced when talking over the technical implementation.</p>
+                <p>Through my collaboration with multiple stakeholders across departments in this project, I learned to: </p>
                 <ol>
-                    <li>Vehicle makes varied widely in number of trims and production years. Designs had to account for anywhere between 5-40 items, without looking too sparse or too cluttered.</li>
-                    <li>Because pages had to be engaging to users and hold a large amount of SEO content, I learned how to best prioritize information and <b>organize content hierarchically.</b></li>
-                    <li>We created templated copy blocks for each level, so developers could insert dynamic keywords and generate content <b>to scale for 1000's of pages.</b></li>
-                    <li>We had to find sources for brand new content, resulting in us contracting an outside vendor for vehicle images, in addition to building our own libraries for logos and vehicle composites.</li>
+                    <li>Guide asks from marketing stakeholders in the direction of more user-centric design. </li>
+                    <li>Present data surrounding user frustrations in a compelling way, to gain support for design decisions. </li>
+                    <li>Determine what information is actually necessary. Simplify crowded designs without removing any existing useful functionality.</li>
                 </ol>
-
-
+                
             </Project>
     );
 };

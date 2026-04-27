@@ -16,7 +16,7 @@ export const ProjectData = new Map([
         timeFrame: "2025",
         role: ["UI/UX Lead"],
         tools: ["Figma"],
-        collab: ["Web Developers"],
+        collab: ["Web Developers","Marketing"],
         tags: ["Featured","UI/UX"],
         blurb: "Increased tire checkouts by 46.8% YoY through product listing redesigns and scheduling funnel optimizations.",
         link: "/mavis-checkout-enhancements",

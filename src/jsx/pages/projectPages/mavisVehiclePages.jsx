@@ -139,7 +139,8 @@ function MavisVehiclePages(props) {
                     <li>We created templated copy blocks for each level, so developers could insert dynamic keywords and generate content <b>to scale for 1000's of pages.</b></li>
                     <li>We had to find sources for brand new content, resulting in us contracting an outside vendor for vehicle images, in addition to building our own libraries for logos and vehicle composites.</li>
                 </ol>
-
+                
+                <ZoomImg imgSrc={"img/mavis-team.jpg"} />
 
             </Project>
     );

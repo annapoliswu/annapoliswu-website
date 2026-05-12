@@ -16,7 +16,7 @@ const HomeHero = (props) => {
                 <p className='homeHeroBackgroundText font-xl'>吴紫旰</p>
                 <div className="homeHeroContainer">
                 <h1 className='homeHeroTitle font-2xl'>Zihan Wu</h1>
-                <p className='homeHeroBlurb font-lg'>
+                <p className='homeHeroBlurb font-md'>
                     Designing elegant solutions with my background in interaction and computer science. 
                 </p>
                 <ScrollButton scrollRef={props.scrollRef} text={"Scroll To Projects"} btnType={""} />

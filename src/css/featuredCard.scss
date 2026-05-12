@@ -1,16 +1,25 @@
 @use './sharedVariables' as *;
 
 .featuredCardContainer{
+    
+    border-radius: $rounded;
+    overflow: hidden;
+
     background-color: $surface-light;
     border: 1.5px solid $greyscale-300;
 
     display: flex;
     flex-direction:column;
+
+    transition: linear 200ms;
+}
+
+.featuredCardInfoContainer{
+    display: flex;
+    flex-direction:column;
     gap: .75rem;
     padding: 5%;
     border-radius: $rounded;
-
-    transition: linear 200ms;
 }
 
 .featuredCardContainer:hover{
@@ -19,7 +28,9 @@
 
 .featuredCardImage{
     width: 100%;
+    margin: 0;
     aspect-ratio: 16/9;
+    border-radius: 0;
 
     object-fit: cover;
     background-color: grey;

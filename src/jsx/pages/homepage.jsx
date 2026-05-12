@@ -20,7 +20,9 @@ function Homepage(props) {
                     link={project.link}
                     title={project.title}
                     blurb={project.blurb}
-                    imgSrc={project.thumbnail}/>
+                    imgSrc={project.thumbnail}
+                    tags={project.tags}/>
+                    
             })}
 
             </div>

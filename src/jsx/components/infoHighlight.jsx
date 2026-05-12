@@ -9,6 +9,7 @@ const InfoHighlight = (props) => {
         <div className="infoHighlightContainer">
             {props.infoHighlightItems.map((item, index) => {
                 return (
+                    
                     <div className="infoHighlightItem" key={index + item.label}>
                         {item.icon && <img className="infoHighlightIcon" src={item.icon}></img>}
                         {item.label && <p className="infoHighlightLabel" > {item.label} </p> }

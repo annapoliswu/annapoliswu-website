@@ -16,8 +16,17 @@ const FeaturedCard = (props) => {
                         <Link className="featuredCardLink" to={props.link}>
                             <h2 className='projectTitle font-lg'>{props.title}</h2>
                             <p className='projectBlurb font-md'>{props.blurb}</p>
+                            <div className='featuredCardTags'>
+                                {props.tags.map(tag => {
+                                    if (tag.toLowerCase() != "featured"){
+                                        return <div className='tag' key={tag}> <p className='tagText'> {tag}</p>  </div>
+                                    }
+                                    
+                                })}
+                            </div>
                         </Link>
-                        <Button link={props.link} text="Read More" />
+
+                        <Button className='projectButton' link={props.link} text="Read More" />
                     </div>
                     
                 </div>

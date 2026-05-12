@@ -9,27 +9,54 @@
     border: 1.5px solid $greyscale-300;
 
     display: flex;
+    
+    position: relative;
     flex-direction:column;
 
     transition: linear 200ms;
+    
+    aspect-ratio: 1/1;
 }
+
 
 .featuredCardInfoContainer{
     display: flex;
+    opacity: 0;
+    position: absolute;
+    
     flex-direction:column;
     gap: .75rem;
     padding: 5%;
+    aspect-ratio: 1/1;
+    margin: 0;
+    
+    background-color: color-mix(in srgb, $brand-200, transparent 5%);
     border-radius: $rounded;
+
+    transition: ease-in 200ms;
 }
 
-.featuredCardContainer:hover{
-    background-color: $brand-200;
+.featuredCardContainer:hover > .featuredCardInfoContainer{
+    opacity: 100%;
 }
+
+.featuredCardInfoContainer > .projectButton{
+    display: none;
+}
+
+.featuredCardLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
 
 .featuredCardImage{
     width: 100%;
+    aspect-ratio: 1/1;
     margin: 0;
-    aspect-ratio: 16/9;
     border-radius: 0;
 
     object-fit: cover;
@@ -43,4 +70,53 @@
 .featuredCardLink{
     color: $text-default;
     text-decoration: none;
+}
+
+.featuredCardTags{
+    display: flex;
+    gap: 8px;
+}
+
+.tag{
+    display: flex;
+    width: fit-content;
+    padding: 2px 12px;
+    border-radius: 200px;
+    background-color: $brand-300;
+}
+
+.projectTitle{
+    line-height: 150%;
+}
+
+
+
+@media only screen and (width < $desktop){
+    
+.featuredCardContainer{
+    aspect-ratio: auto;
+    
+}
+
+.featuredCardImage{
+    aspect-ratio: 16/9;
+}
+
+.featuredCardInfoContainer{
+    opacity: 100%;
+    position: relative;
+    
+    aspect-ratio: auto;
+    background-color: #fff;
+}
+
+.featuredCardTags{
+    display: none;
+}
+
+.featuredCardInfoContainer > .projectButton{
+    display: flex;
+}
+
+
 }

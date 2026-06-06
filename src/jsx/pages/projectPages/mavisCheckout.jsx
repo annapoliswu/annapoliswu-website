@@ -90,9 +90,9 @@ function MavisCheckout(props) {
                 <h3 className="subheading">Marketing Collaboration</h3>
                 <h1>Showcasing Value</h1>
 
-                <p>We clearly display the new online promotion marketing planned to launch through strikethroughs.</p>
+                <p>Through strikethroughs, we clearly display the new future marketing promotion.</p>
 
-                <p>Though a simple solution at first, we quickly realized that we had multiple combinations of deals and vehicle fitment types, leading us to define over <b>10 different card states.</b> </p>
+                <p>In discovery sessions however, we quickly realized that with multiple combinations of deals and vehicle fitment types, we had to define over <b>10 different card states.</b> </p>
                 <ZoomImg imgSrc={"img/mt-checkout-tire-card-variations.jpg"} />
 
                 <p>To further carry the deals through to checkout, we brainstorm various ways to highlight the savings value at the cart stage and continue iteration on option 5.</p>
@@ -106,8 +106,8 @@ function MavisCheckout(props) {
                 <hr/>
 
                 
-                <h3 className="subheading">Auditing the flow</h3>
-                <h1>Resolving Painpoints</h1>
+                <h3 className="subheading">UX Auditing</h3>
+                <h1>Resolving Existing Painpoints</h1>
 
                 <p>In my October UX audit, I identified several areas of user frustration in the checkout flow and recommended solutions. View the <a href="https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m" target="_blank" rel="noopener noreferrer">full report here</a>.</p>
                 <ZoomImg imgSrc={"img/ux-audit-01.jpg"} />
@@ -117,6 +117,9 @@ function MavisCheckout(props) {
                 <ZoomImg imgSrc={"img/ux-audit-11.jpg"} />
                 <div style={{display: 'flex', justifyContent: 'center'}}><Button text={"View Full Report"} link={"https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m"} btnType={"primary"} newTab={true}></Button></div>
 
+                <n/>
+                <p>Several of these solutions have been ticketed and are being developed on a rolling basis. We continue to monitor checkout's performance and adjust changes accordingly to improve. </p>
+                
                 <hr/>
 
                 <h3 className="subheading">The Impact</h3>
@@ -127,7 +130,8 @@ function MavisCheckout(props) {
 
                 <p>In March, we saw a <b>46.8% increase</b> in reservations and a <b>22.1% increase</b> in CVR, compared to last year. </p>
                 <ZoomImg imgSrc={"img/mt-checkout-march-graph.jpg"} />
-                <p>As we roll out further improvements to the checkout experience, we continue to see higher percentages of users continue through to each step. </p>
+                <p>After rolling out fixes to remove unselectable time slots and to improve form validations, we continue to see higher and higher user retention through each step. </p>
+                
                 <hr/>
 
                 <h3 className="subheading">Conclusion</h3>

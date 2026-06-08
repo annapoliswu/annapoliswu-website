@@ -127,7 +127,7 @@ function Veridium(props) {
  
             <ol>
                 <li>Working with an existing product, I learned to understand the <b>history of design decisions</b> and limitations of prior teams.</li>
-                <li>Funnily enough, this was my second time working on a product in chemistry and education. I enjoyed seeing the differences between designing for <b>K-12 vs college audiences</b>, in addition to learning from subject matter experts. </li>
+                <li>Funnily enough, this was my 2nd time working on an educational chemistry product. I enjoyed seeing the differences between designing for <b>K-12 vs college audiences</b>, in addition to learning from subject matter experts. </li>
                 <li>The research methodologies I learned, with the advisement of professors in the field, helped me <b>formulate future testing approaches</b>, especially for my own M.S. thesis in the coming years. </li>
             </ol>
 

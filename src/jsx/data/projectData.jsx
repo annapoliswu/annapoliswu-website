@@ -20,8 +20,8 @@ export const ProjectData = new Map([
         tags: ["Featured","UI/UX"],
         blurb: "Increased tire checkouts by 46.8% YoY through product listing redesigns and scheduling funnel optimizations.",
         link: "/mavis-checkout-enhancements",
-        thumbnail: 'img/mavis-thumbnail.jpg',
-        cover: 'img/mavis-thumbnail.jpg'}],
+        thumbnail: 'img/mt-checkout-thumbnail.jpg',
+        cover: 'img/mt-checkout-cover.jpg'}],
 
     ["simplyspeak",  {
         title: "SimplySpeak App",
@@ -33,7 +33,7 @@ export const ProjectData = new Map([
         blurb: "Zero to one design of an app that helps English as a second language learners in career development.",
         link: "/simplyspeak",
         thumbnail: 'img/simplyspeak-thumbnail.jpg',
-        cover: 'img/simplyspeak-thumbnail.jpg'}],
+        cover: 'img/simplyspeak-cover.jpg'}],
 
     ["veridium",  {
         title: "Veridium",
@@ -57,7 +57,7 @@ export const ProjectData = new Map([
         blurb: "Developing an Android app for sound designers to share soundbytes.",
         link: "/soundboard",
         thumbnail: 'img/soundboard-thumbnail.jpg',
-        cover: 'img/soundboard-thumbnail.jpg'}]
+        cover: 'img/soundboard-cover.jpg'}]
 ]);
 
 export default ProjectData;

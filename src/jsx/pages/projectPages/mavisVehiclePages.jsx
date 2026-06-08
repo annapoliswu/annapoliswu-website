@@ -128,6 +128,14 @@ function MavisVehiclePages(props) {
                 </ImgText>
 
                 <hr/>
+                <h6 className="subheading">Impact</h6>
+                <h2>Page Ranking Performance</h2>
+                
+                <p></p>
+                <ZoomImg imgSrc={"img/vhp-impact.jpg"} alt={"Dashboard for performance of vehicle pages."}/>
+
+                
+                <hr/>
 
                 <h6 className="subheading">Conclusion</h6>
                 <h2>Challenges and Takeaways</h2>

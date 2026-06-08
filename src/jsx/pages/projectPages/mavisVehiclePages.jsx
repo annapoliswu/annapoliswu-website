@@ -10,7 +10,7 @@ function MavisVehiclePages(props) {
         
     return (
             <Project {...data}>
-                <h3 className="subheading">Problem definition</h3>
+                <h6 className="subheading">Problem definition</h6>
                 <h1>New Entry Points Into Tire Buying </h1>
                 <p>Most customers with limited knowledge of tires will search their vehicle name when looking for replacement tires. Mavis.com does not currently provide any entry points onto the site for these customers.  </p>
                 <ImgText
@@ -31,7 +31,7 @@ function MavisVehiclePages(props) {
                 </InfoHighlight>
                 <hr/>
 
-                <h3 className="subheading">Market Research</h3>
+                <h6 className="subheading">Market Research</h6>
                 <h1>Providing Quality Content For Search Ranking </h1>
                 
                 <p>We found that top ranking sites would capture all 4 levels of vehicle information users would search. </p>            
@@ -82,7 +82,7 @@ function MavisVehiclePages(props) {
                 
                 <hr/>
 
-                <h3 className="subheading">Design Iteration</h3>
+                <h6 className="subheading">Design Iteration</h6>
                 <h1>Designing to Capture Information</h1>
                 <p>We want to engage users to enter the rest of their vehicle information, so we design to immediately connect with users through a <b>recognizable visual of their vehicle.</b></p>
                 <ZoomImg imgSrc={"img/vhp-design-iteration.jpg"} alt={"Greyscale designs of the desktop make, model, and trim level vehicle pages."}/>
@@ -94,7 +94,7 @@ function MavisVehiclePages(props) {
 
                 <hr/>
 
-                <h3 className="subheading">Final Designs</h3>
+                <h6 className="subheading">Final Designs</h6>
                 <h1>Polished Prototypes</h1>
                 
                 <p>For final approval, I created <a href="https://www.figma.com/proto/D6wfyaKSWBgJSXg8rFGV7d/UI-UX-Requests--June---2025---1-?node-id=2338-197599&t=U47IB9OoZkTJeM84-1&scaling=scale-down&content-scaling=fixed&page-id=285%3A24285&starting-point-node-id=2338%3A197599&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">mobile prototypes</a> to present to leadership.</p>
@@ -129,7 +129,7 @@ function MavisVehiclePages(props) {
 
                 <hr/>
 
-                <h3 className="subheading">Conclusion</h3>
+                <h6 className="subheading">Conclusion</h6>
                 <h1>Challenges and Takeaways</h1>
 
                 <p>Design-wise, I learned a great deal about scaling to accommodate dynamic content, as well as striking a balance between designing for usability and SEO. Though we worked with our developer early in the process, other challenges still surfaced when talking over the technical implementation.</p>

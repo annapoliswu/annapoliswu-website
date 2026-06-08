@@ -14,7 +14,7 @@ function Veridium(props) {
         
     return (
         <Project {...data}>
-            <h3 className="subheading">Background</h3>
+            <h6 className="subheading">Background</h6>
             <h1>Teaching Abstract Concepts</h1>
 
             <p>Complex atomic and molecular structures are often difficult for students to comprehensively visualize, especially as 3D structures represented in traditional textbooks.</p>
@@ -25,7 +25,7 @@ function Veridium(props) {
             <p>Earning a Neukom Grant in 2022, she partnered with the <a href="https://dali.dartmouth.edu/" target="_blank" rel="noopener noreferrer">Design and Innovation Lab</a> at Dartmouth College to develop Veridium, a VR app to aid in the teaching of abstract solid state chemistry concepts. </p>
         
             <hr/>
-            <h3 className="subheading">The product</h3>
+            <h6 className="subheading">The product</h6>
             <h1>Building Off A Foundation</h1>
 
             <p>I joined the Veridium project near the end of development, as a <b>UX Designer</b> and <b>Technical 3D Artist</b>. Most of the initial conceptualization and development of the app had been completed by previous teams, and it was up to our team to test, polish, and ship the final product. </p>
@@ -58,7 +58,7 @@ function Veridium(props) {
             ><Button text={"View Research Publication"} link={"https://pubs.acs.org/doi/10.1021/acs.jchemed.4c01256"} newTab={true}/></ImgText>
         
             <hr/>
-            <h3 className="subheading">Testing Trials</h3>
+            <h6 className="subheading">Testing Trials</h6>
             <h1>Research Methodology</h1>
 
             <p>To draw a fair comparison, we test our VR learning experience against the same lesson with analog 3D clay models, eliminating the outlying factor of comparing 3D teaching methods to 2D ones.</p>
@@ -96,7 +96,7 @@ function Veridium(props) {
 
             <hr/>
 
-            <h3 className="subheading">The final product</h3>
+            <h6 className="subheading">The final product</h6>
             <h1>Shipping Veridium</h1>
             
             <p>Our team was responsible for polishing and launching the final app onto the Meta Quest Store. </p>
@@ -121,7 +121,7 @@ function Veridium(props) {
             </ImgText>
             
             <hr/>
-            <h3 className="subheading">Conclusion</h3>
+            <h6 className="subheading">Conclusion</h6>
             <h1>Challenges and Takeaways</h1>
             <p>This was a fantastic first term at DALI Labs and I wouldn't have had it any other way! Throughout my time with the product, I learned a great deal about refining work, as well as the shipping process for VR apps.</p>
  

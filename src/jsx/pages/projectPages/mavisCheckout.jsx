@@ -11,7 +11,7 @@ function MavisCheckout(props) {
         
     return (
             <Project {...data}>
-                <h3 className="subheading">The effect</h3>
+                <h6 className="subheading">The effect</h6>
                 <h1>Impact At A Glance</h1>
 
                 <p>After implementing design changes, we saw a <b>46.8% increase</b> in total number of tire purchases year-over-year.</p>
@@ -23,7 +23,7 @@ function MavisCheckout(props) {
 
                 <hr/>
 
-                <h3 className="subheading">Problem definition</h3>
+                <h6 className="subheading">Problem definition</h6>
                 <h1>Fewer Customers Completing Checkout</h1>
 
                 <p>In 2025, we saw a consistent drop in the conversion rate for tire purchases compared to last year. Though more users were visiting the site, <b>a smaller percentage were adding tires to their cart.</b>  </p>
@@ -44,7 +44,7 @@ function MavisCheckout(props) {
                 
                 <hr/>
 
-                <h3 className="subheading">Design Rationale</h3>
+                <h6 className="subheading">Design Rationale</h6>
                 <h1>Improving Product Results</h1>
 
                 <p>Upon researching the product results page, we found that many users were confused by the filtering system.</p>
@@ -87,7 +87,7 @@ function MavisCheckout(props) {
 
                 <hr/>
 
-                <h3 className="subheading">Marketing Collaboration</h3>
+                <h6 className="subheading">Marketing Collaboration</h6>
                 <h1>Showcasing Value</h1>
 
                 <p>Through strikethroughs, we clearly display the new future marketing promotion.</p>
@@ -106,7 +106,7 @@ function MavisCheckout(props) {
                 <hr/>
 
                 
-                <h3 className="subheading">UX Auditing</h3>
+                <h6 className="subheading">UX Auditing</h6>
                 <h1>Resolving Existing Painpoints</h1>
 
                 <p>In my October UX audit, I identified several areas of user frustration in the checkout flow and recommended solutions. View the <a href="https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m" target="_blank" rel="noopener noreferrer">full report here</a>.</p>
@@ -122,7 +122,7 @@ function MavisCheckout(props) {
                 
                 <hr/>
 
-                <h3 className="subheading">The Impact</h3>
+                <h6 className="subheading">The Impact</h6>
                 <h1>More Online Reservations</h1>
 
                 <p>The product result and cart changes were released February 18th. Since then, we've seen a <b>significant increase in online reservations</b> which has persisted over 3 months. </p>
@@ -134,7 +134,7 @@ function MavisCheckout(props) {
                 
                 <hr/>
 
-                <h3 className="subheading">Conclusion</h3>
+                <h6 className="subheading">Conclusion</h6>
                 <h1>Challenges and Takeaways</h1>
 
                 <p>Through my collaboration with multiple stakeholders across departments in this project, I learned to: </p>

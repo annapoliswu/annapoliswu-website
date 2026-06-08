@@ -71,7 +71,7 @@ function SimplySpeak(props) {
                 </ImgText>
 
                 <p>Finally, we settle on the direction of a <b>community-based career preparation app</b> with secondary language help. </p>
-
+                <ZoomImg imgSrc={"img/ss-features.jpg"}/>
 
                 <hr/> 
                 <ImgText 

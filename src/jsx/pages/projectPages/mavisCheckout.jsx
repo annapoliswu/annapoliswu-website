@@ -32,7 +32,7 @@ function MavisCheckout(props) {
                 <p>Every step past "adding a tire to their cart," saw lower retention rates (% of users continuing to the next step).</p>
 
                 <ZoomImg imgSrc={"img/mt-checkout-august-graph.jpg"} />
-
+                <br/><br/>
 
                 <h3>We had 3 main goals moving forward with this project</h3>
                 <ol>
@@ -115,7 +115,7 @@ function MavisCheckout(props) {
                 <ZoomImg imgSrc={"img/ux-audit-09.jpg"} />
                 <ZoomImg imgSrc={"img/ux-audit-10.jpg"} />
                 <ZoomImg imgSrc={"img/ux-audit-11.jpg"} />
-                <div style={{display: 'flex', justifyContent: 'center'}}><Button text={"View Full Report"} link={"https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m"} btnType={"primary"} newTab={true}></Button></div>
+                <div style={{display: 'flex', justifyContent: 'center', marginTop: '2rem', marginBottom: '2rem'}}><Button text={"View Full Report"} link={"https://www.figma.com/deck/wLLmKIMFmXz8QwbQyvb56m"} btnType={"primary"} newTab={true}></Button></div>
 
                 <n/>
                 <p>Several of these solutions have been ticketed and are being developed on a rolling basis. We continue to monitor checkout's performance and adjust changes accordingly to improve. </p>

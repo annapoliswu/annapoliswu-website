@@ -3,8 +3,7 @@
 .zoomImg, .sliderImg{
     max-width: 100%;
     height: auto;
-    margin: 2rem 0;
-    
+    margin: 4rem 0;
 }
 
 img{
@@ -26,6 +25,11 @@ td, th {
     padding: 12px;
 }
 th{ background-color: $brand-200; color: $brand-500;}
+
+.projectContainer p{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
 
 .projectContainer a{
     color: $brand-500;
@@ -61,13 +65,21 @@ th{ background-color: $brand-200; color: $brand-500;}
     flex-direction: row;
     justify-content: space-between;
     padding: $spacing-lg 0;
-    gap: .5rem;
     border-radius: $rounded;
+    
+    gap: .5rem;
+}
+
+.projectDetails p{
+    margin: auto;
 }
 
 .label{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
     font-weight: 700;
-    color: $text-default;
+    color: $brand-500;
 }
 
 .labelValue{
@@ -83,14 +95,12 @@ th{ background-color: $brand-200; color: $brand-500;}
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 .projectContent{
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 
 @media only screen and (width <= $mobile) {
@@ -118,6 +128,10 @@ th{ background-color: $brand-200; color: $brand-500;}
 
     table, img{
         margin: 1rem 0;
+    }
+
+    .zoomImg, .sliderImg{
+        margin: 2rem 0;
     }
 
 }

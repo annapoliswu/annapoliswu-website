@@ -11,9 +11,10 @@ const ImgText = (props) => {
         <div className={"imgTextContainer " + props.imgPosition}>
             <ZoomImg className="imgTextImage" imgSrc={props.imgSrc} imgWidth={props.imgWidth} alt={props.alt}/>
             <div className="imgTextContentContainer">
-                <h3 className='subheading'>{props.subtitle}</h3>
-                <h2 className="imgTextTitle" > {props.title} </h2>
-                <p className="imgTextDescription" > {props.description} </p>
+                {/*conditional rendering with && */}
+                {props.subtitle && <h3 className='subheading'>{props.subtitle}</h3>}
+                {props.title && <h2 className="imgTextTitle" > {props.title} </h2>}
+                {props.description && <p className="imgTextDescription" > {props.description} </p>}
                 {props.children}
             </div>
         </div>

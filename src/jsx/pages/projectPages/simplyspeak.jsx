@@ -18,7 +18,7 @@ function SimplySpeak(props) {
                 <p> Born from a 3 week design jam where the goal was to design to aid refugees, our team focused on our own experiences with first generation immigrant parents and the stuggles we've witnessed with language barriers and employment. </p>
 
                 <ZoomImg imgSrc={"img/ss-final.jpg"}/>
-                
+
                 <p> SimplySpeak is an app designed to specifically for English as a second language users. Focused primarily on career prepartion with secondary language assistance, SimpleSpeak carves a niche with its highly applicable lessons and a community-based style of learning. </p>
 
                 <hr/>
@@ -30,28 +30,48 @@ function SimplySpeak(props) {
                 </InfoHighlight>
 
                 <br/><br/>
-                <h6 className="subheading">Problem definition</h6>
-                <h2>Finding a Niche</h2>
+                
+                <h6 className="subheading">Need finding</h6>
+                <h2>User Research</h2>
 
                 <p>We started our primary research by conducting 6 interviews. Due to time constraints, we expanded our interview pool to include immigrants and users at risk of displacement from their countries.  </p>
                 <ZoomImg imgSrc={"img/ss-interviews.jpg"}/>
 
-                <ZoomImg imgSrc={"img/ss-empathy-map.jpg"}/>
 
+                We synthesized our findings into empathy maps and key insights.
+                <ZoomImg imgSrc={"img/ss-empathy-map.jpg"}/>
+                
+                <p>During our first brainstorm, we focused on the issue of <b>connection</b>. We explored the idea of a website highlighting immigrant voices, using quilt-weaving as a metaphor for community. </p>
+                <ZoomImg imgSrc={"img/ss-brainstorming.jpg"} alt={"Initial scrapped idea as a solution to the prompt."}/>
+                
+                <p>However we found this idea to be not very novel or helpful. Direct donation platforms, like GoFundMe, already existed where users could tell their own stories.</p>
+                
+                <hr/>
+
+                <h6 className='subheading'>Pivoting</h6>
+                <h2>Carving a Niche</h2>
+                <p>We went back to talk with our interviewees in more depth, honed in on <b>3 reoccurring issues</b>, and created user personas to guide our design process.</p>
+
+                
                 <InfoHighlight 
                 infoHighlightItems={[
-                    { label:"Need to be heard", description:"Users want their voices and stories heard and their struggles recognized."},
-                    { label:"Language barriers", description:"Language barriers are major obstacles when resettling into new countries."},
+                    { label:"Community", description:"They feel disconnected from loved ones and struggle to build new community."},
+                    { label:"Language barriers", description:"Language barriers make day-to-day life difficult. Many want to improve their English."},
                     { label:"Trouble job seeking", description:"Job searching in a new country is challenging without connections and resources."},
                     ]}>
                 </InfoHighlight>
 
-                
-                <p>During our first brainstorming, we dabbled with the idea of a website highlighting immigrant stories, centered around themes of quilt-weaving and connectedness. </p>
-                <ZoomImg imgSrc={"img/ss-brainstorming.jpg"} alt={"Initial scrapped idea as a solution to the prompt."}/>
-                
-                <p>However we quickly found the idea to be not very novel or helpful. Direct donation platforms, like GoFundMe, already existed where users could tell their own stories.</p>
-                <p>So we set out to re-examine the prompt and interview notes.</p>
+                <ImgText
+                    imgSrc={"img/persona-woman-2.png"} 
+                    imgWidth={"200"}
+                    imgPosition={"left"}>
+                    <h6 className='subheading'>User persona</h6>
+                    <h2>Vera immigrated to the United States a year ago</h2>
+                    <p>She has completed ESL courses and is now trying to find employment. After several unsuccessful interviews where she struggled to answer interview questions, she looks for better resources to prepare herself.</p>
+                </ImgText>
+
+                <p>Finally, we settle on the direction of a <b>community-based career preparation app</b> with secondary language help. </p>
+
 
                 <hr/> 
                 <ImgText 

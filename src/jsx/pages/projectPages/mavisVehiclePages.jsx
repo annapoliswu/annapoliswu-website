@@ -14,7 +14,7 @@ function MavisVehiclePages(props) {
                 <h2>New Entry Points Into Tire Buying </h2>
                 <p>Most customers with limited knowledge of tires will search their vehicle name when looking for replacement tires. Mavis.com does not currently provide any entry points onto the site for these customers.  </p>
                 <ImgText
-                    imgSrc={"img/persona-woman-2.png"} 
+                    imgSrc={"img/persona-adult-1.png"} 
                     imgWidth={"200"}
                     imgPosition={"left"}
                     title={"Clara is looking to replace her daughter's tires"}>

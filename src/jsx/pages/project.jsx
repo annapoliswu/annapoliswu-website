@@ -12,7 +12,7 @@ function Project(props) {
             <div className='projectOverview'>
                 <div className='projectDetails'>
                         <div className='projectDetailItem'>
-                            <p className='label'>DATE</p>
+                            <p className='label'>YEAR</p>
                             <p className='labelValue'>{props.timeFrame}</p>
                         </div>
                         <div className='projectDetailItem'>

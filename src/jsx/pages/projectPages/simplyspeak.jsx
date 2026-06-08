@@ -15,11 +15,11 @@ function SimplySpeak(props) {
             <Project {...data}>
                 <h6 className="subheading">Overview</h6>
                 <h1>SimplySpeak App For ESL Career Preparation</h1>
-                <p> Born from a 3 week design jam where the goal was to design to aid refugees, our team focused on our own experiences with first generation immigrant parents and the stuggles we've witnessed with language barriers and employment. </p>
+                <p> Born from a <b>3 week design jam</b> with the goal of aiding refugees, our team drew from our own experiences with first generation immigrant family and how they've struggled with language barriers and employment. </p>
 
                 <ZoomImg imgSrc={"img/ss-final.jpg"}/>
 
-                <p> SimplySpeak is an app designed to specifically for English as a second language users. Focused primarily on career prepartion with secondary language assistance, SimpleSpeak carves a niche with its highly applicable lessons and a community-based style of learning. </p>
+                <p>Designed to help <b>English as a second language</b> (ESL) users in career preparation, SimpleSpeak carves a niche with its highly applicable lessons and a community-based style of learning. </p>
 
                 <hr/>
 

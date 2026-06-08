@@ -15,7 +15,7 @@ function Veridium(props) {
     return (
         <Project {...data}>
             <h6 className="subheading">Background</h6>
-            <h1>Teaching Abstract Concepts</h1>
+            <h2>Teaching Abstract Concepts</h2>
 
             <p>Complex atomic and molecular structures are often difficult for students to comprehensively visualize, especially as 3D structures represented in traditional textbooks.</p>
             <ZoomImg imgSrc={"img/veridium-ss-diagram.jpg"} alt={"Examples of structure diagrams of various materials"}/>
@@ -26,7 +26,7 @@ function Veridium(props) {
         
             <hr/>
             <h6 className="subheading">The product</h6>
-            <h1>Building Off A Foundation</h1>
+            <h2>Building Off A Foundation</h2>
 
             <p>I joined the Veridium project near the end of development, as a <b>UX Designer</b> and <b>Technical 3D Artist</b>. Most of the initial conceptualization and development of the app had been completed by previous teams, and it was up to our team to test, polish, and ship the final product. </p>
 
@@ -59,7 +59,7 @@ function Veridium(props) {
         
             <hr/>
             <h6 className="subheading">Testing Trials</h6>
-            <h1>Research Methodology</h1>
+            <h2>Research Methodology</h2>
 
             <p>To draw a fair comparison, we test our VR learning experience against the same lesson with analog 3D clay models, eliminating the outlying factor of comparing 3D teaching methods to 2D ones.</p>
             <ZoomImg imgSrc={"img/veridium-research-methodology.jpg"}/>
@@ -97,7 +97,7 @@ function Veridium(props) {
             <hr/>
 
             <h6 className="subheading">The final product</h6>
-            <h1>Shipping Veridium</h1>
+            <h2>Shipping Veridium</h2>
             
             <p>Our team was responsible for polishing and launching the final app onto the Meta Quest Store. </p>
             <p>As a <b>3D artist</b>, I refined existing environments ( lightmaps and textures ) and modeled background assets to replace placeholder ones.</p>
@@ -122,7 +122,7 @@ function Veridium(props) {
             
             <hr/>
             <h6 className="subheading">Conclusion</h6>
-            <h1>Challenges and Takeaways</h1>
+            <h2>Challenges and Takeaways</h2>
             <p>This was a fantastic first term at DALI Labs and I wouldn't have had it any other way! Throughout my time with the product, I learned a great deal about refining work, as well as the shipping process for VR apps.</p>
  
             <ol>

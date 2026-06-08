@@ -12,13 +12,13 @@ function SimplySpeak(props) {
         <div>
             
             <Project {...data}>
-                <h6 className="subheading"></h6>
-                <h1>New Entry Points Into Tire Buying </h1>
+                <h6 className="subheading">Overview</h6>
+                <h1>SimplySpeak App For ESL Career Preparation</h1>
+                <p>Wah description! </p>
 
                 <h6 className="subheading">Problem definition</h6>
                 <h1>New Entry Points Into Tire Buying </h1>
-
-                <h2>SimplySpeak Project Page</h2>
+                
                 <p>This is extra content inside the SimplySpeak project page.</p>
 
                 <InfoHighlight 

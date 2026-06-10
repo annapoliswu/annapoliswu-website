@@ -1,6 +1,6 @@
 @use './sharedVariables' as *;
 
-.zoomImg, .sliderImg{
+.zoomImg, .sliderImg, .videoFrame{
     max-width: 100%;
     height: auto;
     margin: 4rem 0;
@@ -9,6 +9,8 @@
 img{
     image-rendering: auto;
 }
+
+
 
 table{
     text-align: left;

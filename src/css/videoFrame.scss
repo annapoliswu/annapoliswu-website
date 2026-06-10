@@ -1,0 +1,6 @@
+@use './sharedVariables' as *;
+
+.videoFrame{
+    border-radius: $rounded;
+    aspect-ratio: 16 / 9;
+}

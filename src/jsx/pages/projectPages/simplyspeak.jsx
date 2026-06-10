@@ -34,7 +34,7 @@ function SimplySpeak(props) {
                 <h6 className="subheading">Need finding</h6>
                 <h2>User Research</h2>
 
-                <p>We started our primary research by conducting 6 interviews. Due to time constraints, we expanded our interview pool to include immigrants and users at risk of displacement from their countries.  </p>
+                <p>We start our primary research by conducting 6 interviews. Due to time constraints, we expand our interview pool to include immigrants and users at risk of displacement from their countries.  </p>
                 <ZoomImg imgSrc={"img/ss-interviews.jpg"}/>
 
 
@@ -44,13 +44,13 @@ function SimplySpeak(props) {
                 <p>During our first brainstorm, we focused on the issue of <b>connection</b>. We explored the idea of a website highlighting immigrant voices, using quilt-weaving as a metaphor for community. </p>
                 <ZoomImg imgSrc={"img/ss-brainstorming.jpg"} alt={"Initial scrapped idea as a solution to the prompt."}/>
                 
-                <p>However we found this idea to be not very novel or helpful. Direct donation platforms, like GoFundMe, already existed where users could tell their own stories.</p>
+                <p>However we found this idea to be not very novel or helpful. Direct donation platforms, like GoFundMe, already exist where users could tell their own stories.</p>
                 
                 <hr/>
 
                 <h6 className='subheading'>Pivoting</h6>
                 <h2>Carving a Niche</h2>
-                <p>We went back to talk with our interviewees in more depth, honed in on <b>3 reoccurring issues</b>, and created user personas to guide our design process.</p>
+                <p>Upon backtracking to talk with our interviewees in more depth, we discover <b>3 reoccurring issues</b>. We use these to define user personas to guide the rest of our design process.</p>
 
                 
                 <InfoHighlight 
@@ -70,36 +70,101 @@ function SimplySpeak(props) {
                     <p>She has completed ESL courses and is now trying to find employment. After several unsuccessful interviews where she struggled to answer interview questions, she looks for better resources to prepare herself.</p>
                 </ImgText>
 
-                <p>Finally, we settle on the direction of a <b>community-based career preparation app</b> with secondary language help. </p>
+                <p>Finally, we settle on the direction of a <b>community-based career preparation app</b> with secondary language help, honing in on 5 core features based on our user findings.</p>
+                
                 <ZoomImg imgSrc={"img/ss-features.jpg"}/>
 
+
                 <hr/> 
+
+
+                <h6 className='subheading'>Design Process</h6>
+                <h2>Cultivating a Friendly Learning Environment</h2>
+
+                <p>Building off the brand goal of making learning <b>simple and easy</b>, we experiment with simple circle shapes. We later craft transtional UI animations, to elevate our minimal style to a delightful level.  </p>
+                <ZoomImg imgSrc={"img/ss-homescreen-greyscales.jpg"}/>
+
                 <ImgText 
-                imgSrc={"img/test-img.png"} 
+                imgSrc={"img/ss-lesson-planning.jpg"} 
                 imgPosition={"left"}
-                title={"Text title"} 
-                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio nibh, sodales ut tortor at, rutrum ullamcorper leo. Nulla cursus lobortis nisl bibendum tincidunt. Etiam felis nunc, faucibus in gravida non, ultrices commodo erat. Nam velit leo, cursus aliquam tincidunt non, fringilla eget nisl. Pellentesque sodales, turpis ut commodo mattis, orci erat accumsan nibh, id vehicula nibh mauris sed dui. In mattis enim non pellentesque iaculis. Nam volutpat ante ex, vel ultrices felis sodales nec. Vivamus maximus in tellus convallis imperdiet. Morbi ullamcorper turpis elit, ac egestas leo semper at. Phasellus bibendum tincidunt cursus."}></ImgText>
+                title={"Lesson Planning"} 
+                description={"During greyscaling, we map flows for 4 introductory lesson plans to figure out the kinds of learning modules that would be the most useful and engaging."}></ImgText>
+                
                 
                 <ImgText 
-                imgSrc={"img/test-img.png"} 
+                imgSrc={"img/ss-branding.jpg"} 
                 imgPosition={"right"}
-                title={"Text title"} 
-                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio nibh, sodales ut tortor at, rutrum ullamcorper leo. Nulla cursus lobortis nisl bibendum tincidunt. Etiam felis nunc, faucibus in gravida non, ultrices commodo erat. Nam velit leo, cursus aliquam tincidunt non, fringilla eget nisl. Pellentesque sodales, turpis ut commodo mattis, orci erat accumsan nibh, id vehicula nibh mauris sed dui. In mattis enim non pellentesque iaculis. Nam volutpat ante ex, vel ultrices felis sodales nec. Vivamus maximus in tellus convallis imperdiet. Morbi ullamcorper turpis elit, ac egestas leo semper at. Phasellus bibendum tincidunt cursus."}></ImgText>
+                title={"Branding Style Guide"}>
+                    <p>The app needed to feel friendly and invite users to connect during an often overwhelming period in their lives.</p>
+                    <p>We avoided the corporate blues found in career apps like LinkedIn and Indeed, opting for warmer hues and rounder shapes.</p> 
+                </ImgText>
+                
+                
+
+                <hr/> 
+
+                <h6 className='subheading'>Final Design</h6>
+                <h2>Hi-Fi Prototypes</h2>
+
+                <ImgText 
+                imgSrc={"img/ss-animations.gif"} 
+                imgPosition={"left"}
+                title={"Delightful Animations & UI"} 
+                description={"To give users a breather from their stressful job hunt and to invite user to engage more with learning, we craft a welcoming interface with fun screen transitions."}></ImgText>
                 
                 <ImgText 
-                imgSrc={"img/test-img-2.png"} 
+                imgSrc={"img/ss-onboarding.gif"} 
+                imgPosition={"right"}
+                title={"Smooth Onboarding Experience"} 
+                description={"Upon signing up, users are introduced their personal assistants, audio modules, and tapping key words to see translations. These features are later expanded upon more in the indivdual lessons."}></ImgText>
+                
+                <ImgText 
+                imgSrc={"img/ss-lesson-2.gif"} 
                 imgPosition={"left"}
-                title={"Text title"} 
-                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio nibh, sodales ut tortor at, rutrum ullamcorper leo. Nulla cursus lobortis nisl bibendum tincidunt. Etiam felis nunc, faucibus in gravida non, ultrices commodo erat. Nam velit leo, cursus aliquam tincidunt non, fringilla eget nisl. Pellentesque sodales, turpis ut commodo mattis, orci erat accumsan nibh, id vehicula nibh mauris sed dui. In mattis enim non pellentesque iaculis. Nam volutpat ante ex, vel ultrices felis sodales nec. Vivamus maximus in tellus convallis imperdiet. Morbi ullamcorper turpis elit, ac egestas leo semper at. Phasellus bibendum tincidunt cursus."}>
-                <Button text={"Button Text"} link={"/"} btnType={"primary"} newTab={true}></Button>
+                title={"Secondary Language Assistance"} 
+                description={"With our target users, we assume some proficency with English already. Therefore, we primarily focus on conversational assistance - pronunciation, grammar correction, and word recall."}>
                 </ImgText>
                 
                 <ImgText 
-                imgSrc={"img/test-img-2.png"} 
+                imgSrc={"img/ss-groups.gif"} 
                 imgPosition={"right"}
-                title={"Text title"} 
-                description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum odio nibh, sodales ut tortor at, rutrum ullamcorper leo. Nulla cursus lobortis nisl bibendum tincidunt. Etiam felis nunc, faucibus in gravida non, ultrices commodo erat. Nam velit leo, cursus aliquam tincidunt non, fringilla eget nisl. Pellentesque sodales, turpis ut commodo mattis, orci erat accumsan nibh, id vehicula nibh mauris sed dui. In mattis enim non pellentesque iaculis. Nam volutpat ante ex, vel ultrices felis sodales nec. Vivamus maximus in tellus convallis imperdiet. Morbi ullamcorper turpis elit, ac egestas leo semper at. Phasellus bibendum tincidunt cursus."}></ImgText>
+                title={"Community-Based Learning"} 
+                description={"Interviews with immigrants and ESL users revealed that they felt disconnected and left without resources after moving to the U.S. We combat this issue by providing learning groups and mentor feedback. "}></ImgText>
+
                 
+
+                <hr/> 
+
+                <h6 className='subheading'>User Testing</h6>
+                <h2>Gathering Feedback</h2>
+
+                
+                <p>We recruited 6 testers from usertesting.com who spoke English as a second language. </p>
+
+                <ZoomImg imgSrc={"img/ss-user-testing-demographics.jpg"}/>
+
+                <p>Testers completed tasks on the prototype, and were then asked Likert scale and qualitative follow-up questions.</p>
+                
+                <ZoomImg imgSrc={"img/ss-user-testing-rating.jpg"}/>
+                
+                <p>Testers pointed out some confusing instructions and requested notifications for group chats, both of which we re-incorporated into the final prototype.</p>
+
+                <ZoomImg imgSrc={"img/ss-changes.jpg"}/>
+
+                <p>Overall, we received positive reactions from all of our testers about the concept and intuitiveness of SimplySpeak. Half of our testers were genuinely excited about the translation and language help features .</p>
+                
+                <hr/> 
+                <h6 className='subheading'>Conclusion</h6>
+                <h2>Challenges & Takeaways</h2>
+
+                <p>In collaborating with and bouncing ideas off of other UX designers in this design jam, I gained a lot of valuable insights. </p>
+
+                <ol>
+                    <li>When in doubt, revisit user feedback and sit down with your users again.</li>
+                    <li>Narrow down the target user base. Our designs had clearer direction when we focused on solving one specific problem really well, rather than solving multiple problems all at once. </li>
+                    <li>We spent a lot of time iterating on our first design direction. Stay open to pivoting when early design solutions don't feel quite right. </li>
+                </ol>
+
             </Project>
         </div>
     );

@@ -15,7 +15,7 @@ function Veridium(props) {
     return (
         <Project {...data}>
             <h6 className="subheading">Overview</h6>
-            <h2>Veridium - Grounding Abstract Concepts in VR</h2>
+            <h1>Veridium - Grounding Abstract Concepts in VR</h1>
 
             <p>Complex atomic and molecular structures are often difficult for students to comprehensively visualize, especially as 3D structures represented in traditional textbooks.</p>
             <ZoomImg imgSrc={"img/veridium-ss-diagram.jpg"} alt={"Examples of structure diagrams of various materials"}/>

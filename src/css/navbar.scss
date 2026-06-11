@@ -10,8 +10,7 @@ nav{
     padding-top: 42px;
     padding-bottom: 24px;
 
-    font-family: $font-default;
-    letter-spacing: 2px;
+
 }
 
 
@@ -28,6 +27,7 @@ nav > ul{
 nav > li{
     display: inline;
     text-align: center;
+    
 }
 
 nav button{
@@ -39,6 +39,9 @@ nav button{
 nav a{
     color: $text-default;
     text-decoration: none;
+
+    font-family: $font-default;
+    letter-spacing: 2px;
 }
 
 nav a.active{

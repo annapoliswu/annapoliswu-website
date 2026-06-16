@@ -38,7 +38,7 @@ export const ProjectData = new Map([
     ["veridium",  {
         title: "Veridium",
         timeFrame: "2024",
-        role: ["UX Researcher","Technical Artist"],
+        role: ["UX Researcher","3D Artist"],
         tools: ["Unity", "Maya"],
         collab: ["3 VR Developers", "3D Modeler"],
         tags: ["Featured","UI/UX", "AR/VR"],

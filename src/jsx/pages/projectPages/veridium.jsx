@@ -28,7 +28,7 @@ function Veridium(props) {
             <h6 className="subheading">The product</h6>
             <h2>Building Off A Foundation</h2>
 
-            <p>I joined the Veridium project near the end of development, as a <b>UX Designer</b> and <b>Technical 3D Artist</b>. Most of the initial conceptualization and development of the app had been completed by previous teams, and it was up to our team to test, polish, and ship the final product. </p>
+            <p>I joined the Veridium project near the end of development, as a <b>UX Designer</b> and <b>3D Artist</b>. Most of the initial conceptualization and development of the app had been completed by previous teams, and it was up to our team to test, polish, and ship the final product. </p>
 
             <p>As a <b>UX designer</b>, I identified painpoints through usability testing, scripted and filmed our user manual video, and conducted research trials to gauge the effectiveness of VR on learning. </p>
 

@@ -57,11 +57,40 @@ function Soundboard(props) {
                 <h2>Nice to Haves</h2>
                 <ul>
                     <li>Uploading custom profile images</li>
-                    <li>Following other users profiles</li>
-                    <li>Multi-search and advanced filtering</li>
+                    <li>Following other user profiles</li>
+                    <li>Advanced filtering and search</li>
                 </ul>
+                
+                <hr/>
 
+                <h6 className='subheading'>App structure</h6>
+                <h2>Technical Implementation</h2>
+                <p>We have one main Activity that switches Fragments based on the navigation and back stack. A custom soundbyte listview is shared between the home, discover, and soundboard pages. </p>
+                <ZoomImg imgSrc={"img/sb-mvvm-diagram.jpg"}></ZoomImg>
+                <p>We write a Database Manager to easily read/write to our Firebase backend.</p>
+                <ZoomImg imgSrc={"img/sb-thread-diagram.jpg"}></ZoomImg>
 
+                <p>View the github code and download the .apk to try for yourself <a href='https://github.com/annapoliswu/Soundboard/' target="_blank" rel="noopener noreferrer">here.</a></p>
+                
+                <hr/>
+                <h2>Final Product</h2>
+                <VideoFrame
+                    videoUrl="https://www.youtube.com/embed/3UTdcA6CpkI?rel=0"
+                    title="Soundboard App Demo"
+                ></VideoFrame>
+                <ZoomImg imgSrc={"img/soundboard-final.jpg"}></ZoomImg>
+
+                <hr/>
+                <h6 className='subheading'>Conclusion</h6>
+                <h2>Challenges and Takeaways</h2>
+                
+                <p>In collaborating with and bouncing ideas off of other UX designers in this design jam, I gained a lot of valuable insights. </p>
+
+                <ol>
+                    <li>When in doubt, revisit user feedback and sit down with your users again.</li>
+                    <li>Narrow down the target user base. Our designs had clearer direction when we focused on solving one specific problem really well, rather than solving multiple problems all at once. </li>
+                    <li>We spent a lot of time iterating on our first design direction. Stay open to pivoting when early design solutions don't feel quite right. </li>
+                </ol>
 
             </Project>
         </div>

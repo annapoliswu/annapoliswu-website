@@ -103,8 +103,8 @@ function SimplySpeak(props) {
 
                 <hr/> 
 
-                <h6 className='subheading'>Final Design</h6>
-                <h2>Hi-Fi Prototypes</h2>
+                <h6 className='subheading'>Hi-fi design</h6>
+                <h2>Final Product</h2>
 
                 <ImgText 
                 imgSrc={"img/ss-animations.gif"} 

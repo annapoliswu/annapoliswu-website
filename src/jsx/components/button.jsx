@@ -16,7 +16,7 @@ const Button = (props) => {
     return(
         <Link className={"btnContainer " + (props.btnType || '') + props?.className} to={props.link} target={props.newTab ? "_blank" : ""} rel={props.newTab ? "noopener noreferrer" : ""}>
             {leftIcon}
-            <p className="btnText" > {props.text} </p>
+            <span className="btnText" > {props.text} </span>
             {rightIcon}
         </Link>
     );
@@ -26,7 +26,7 @@ export const ScrollButton = (props) => {
     return(
         <div className={"btnContainer " + (props.btnType || '') + props?.className} onClick={()=>{props.scrollRef
             .current.scrollIntoView({behavior: 'smooth', block: 'start' })}}>
-            <p className="btnText">{props.text}</p>
+            <span className="btnText">{props.text}</span>
         </div>
     );
 

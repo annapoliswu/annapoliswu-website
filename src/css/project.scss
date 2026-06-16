@@ -6,12 +6,6 @@
     margin: 4rem 0;
 }
 
-img{
-    image-rendering: auto;
-}
-
-
-
 table{
     text-align: left;
     border-collapse: separate;
@@ -124,7 +118,7 @@ th{ background-color: $brand-200; color: $brand-500;}
         height: auto;
     }
 
-    h1{
+    .projectContainer h1{
         font-size: 24px;
     }
 

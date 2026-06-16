@@ -19,7 +19,7 @@ const FeaturedCard = (props) => {
                             <div className='featuredCardTags'>
                                 {props.tags.map(tag => {
                                     if (tag.toLowerCase() != "featured"){
-                                        return <div className='tag' key={tag}> <p className='tagText'> {tag}</p>  </div>
+                                        return <div className='tag' key={tag}> <span className='tagText'> {tag}</span>  </div>
                                     }
                                     
                                 })}

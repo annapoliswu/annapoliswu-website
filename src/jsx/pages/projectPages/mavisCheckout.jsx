@@ -11,14 +11,15 @@ function MavisCheckout(props) {
         
     return (
             <Project {...data}>
-                <h6 className="subheading">The effect</h6>
-                <h2>Impact At A Glance</h2>
+                <h6 className="subheading">Overview</h6>
+                <h2>Improving Mavis's Checkout</h2>
 
-                <p>After implementing design changes, we saw a <b>46.8% increase</b> in total number of tire purchases year-over-year.</p>
-                <ZoomImg imgSrc={"img/mt-checkout-tire-results.jpg"} />
+                <p>Mavis's flow for buying tires online saw significant diffculty in converting users year over year. In partnership with Marketing, my team sought to improve the tire buying experience at key points of dropoff.</p>
 
-                <p>And a <b>22.1% increase</b> in the overall CVR for tires ( from 5.9% to 7.2% )</p>
+                <p>We targeted <b>product results and checkout</b>: surfacing product value, clarifying confusing UI, and fixing multiple deadends for users.</p>
                 
+                <ZoomImg imgSrc={"img/mt-checkout-tire-results.jpg"} />
+                <p>After implementing changes, we saw a <b>46.8% increase</b> in total number of tire purchases year-over-year. And a <b>22.1% increase</b> in the overall CVR for tires ( from 5.9% to 7.2% )</p>
                 <ZoomImg imgSrc={"img/mt-checkout-cart.jpg"} />
 
                 <hr/>
@@ -27,11 +28,11 @@ function MavisCheckout(props) {
                 <h2>Fewer Customers Completing Checkout</h2>
 
                 <p>In 2025, we saw a consistent drop in the conversion rate for tire purchases compared to last year. Though more users were visiting the site, <b>a smaller percentage were adding tires to their cart.</b>  </p>
-                
+
+                <ZoomImg imgSrc={"img/mt-checkout-august-graph.jpg"} />
                 
                 <p>Every step past "adding a tire to their cart," saw lower retention rates (% of users continuing to the next step).</p>
 
-                <ZoomImg imgSrc={"img/mt-checkout-august-graph.jpg"} />
                 <br/><br/>
 
                 <h3>We had 3 main goals moving forward with this project</h3>
@@ -125,7 +126,7 @@ function MavisCheckout(props) {
                 <h6 className="subheading">The Impact</h6>
                 <h2>More Online Reservations</h2>
 
-                <p>The product result and cart changes were released February 18th. Since then, we've seen a <b>significant increase in online reservations</b> which has persisted over 3 months. </p>
+                <p>The product result and cart changes were released February 18th. Since then, we've seen a <b>significant increase in online reservations</b> which has persisted over 6 months. </p>
                 <ZoomImg imgSrc={"img/mt-checkout-rolling-stats.png"} />
 
                 <p>In March, we saw a <b>46.8% increase</b> in reservations and a <b>22.1% increase</b> in CVR, compared to last year. </p>

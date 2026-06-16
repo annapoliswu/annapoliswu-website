@@ -87,7 +87,7 @@ function MavisVehiclePages(props) {
                 <p>We want to engage users to enter the rest of their vehicle information, so we design to immediately connect with users through a <b>recognizable visual of their vehicle.</b></p>
                 <ZoomImg imgSrc={"img/vhp-design-iteration.jpg"} alt={"Greyscale designs of the desktop make, model, and trim level vehicle pages."}/>
 
-                <p>Most of our site visitors will not scroll past 1/2 the page, so we keep the most engaging content, such as tire suggestions and deals, higher up. </p>
+                <p>Most of our site visitors do not scroll past the halfway mark of the page, so we keep the most engaging content, such as tire suggestions and deals, higher up. </p>
                 <ZoomImg imgSrc={"img/vhp-design-iteration-2.jpg"} alt={"Polished desktop and mobile mockups of the vehicle pages."}/>
                 
                 <p>The rest of the page is rich with SEO content, as well as additional points for users to select YEAR or TRIM to further their tire search.</p>
@@ -97,7 +97,7 @@ function MavisVehiclePages(props) {
                 <h6 className="subheading">Final Designs</h6>
                 <h2>Polished Prototypes</h2>
                 
-                <p>For final approval, I created <a href="https://www.figma.com/proto/D6wfyaKSWBgJSXg8rFGV7d/UI-UX-Requests--June---2025---1-?node-id=2338-197599&t=U47IB9OoZkTJeM84-1&scaling=scale-down&content-scaling=fixed&page-id=285%3A24285&starting-point-node-id=2338%3A197599&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">mobile prototypes</a> to present to leadership.</p>
+                <p>For final approval, I created <a href="https://www.figma.com/proto/D6wfyaKSWBgJSXg8rFGV7d/UI-UX-Requests--June---2025---1-?node-id=2338-197599&t=U47IB9OoZkTJeM84-1&scaling=scale-down&content-scaling=fixed&page-id=285%3A24285&starting-point-node-id=2338%3A197599&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">mobile prototypes</a> and presented to leadership.</p>
 
                 <ImgText
                     imgSrc={"img/vhp-hero-compressed.gif"}
@@ -130,9 +130,12 @@ function MavisVehiclePages(props) {
                 <hr/>
                 <h6 className="subheading">Impact</h6>
                 <h2>Page Ranking Performance</h2>
+
+                <p>With the initial pared-down release of these pages, we already see an average organic ranking of <b>6.4</b>, bringing in about <b>~720 additional visitors</b> to the site per day.</p>
+                <ZoomImg imgSrc={"img/vhp-impact.png"} alt={"Dashboard for performance of vehicle pages."}/>
                 
-                <p></p>
-                <ZoomImg imgSrc={"img/vhp-impact.jpg"} alt={"Dashboard for performance of vehicle pages."}/>
+
+                <p>We expect to see these KPIs rise, as we release the 2nd phase of these pages - with more complex componentry. </p>
 
                 
                 <hr/>

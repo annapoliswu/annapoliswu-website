@@ -1,0 +1,38 @@
+@use './sharedVariables' as *;
+
+.aboutContainer{
+    background-color: rgb(182, 243, 243);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.leftRail{
+    grid-column: 1 / span 1;
+    background-color: rgb(243, 250, 255);
+    width: auto;
+}
+
+
+.rightRail{
+    grid-column: 2 / span 2;
+    width: auto;
+    height:3000px;
+    padding:24px;
+}
+.leftInfo{
+    position: sticky;
+    top:0;
+    padding: 24px;
+}
+.photoContainer{
+    width: auto;
+    aspect-ratio: 300/300;
+    border-radius: $rounded;
+    background-color: purple;
+}
+
+.aboutTag{
+    color: $brand-500;
+}
+

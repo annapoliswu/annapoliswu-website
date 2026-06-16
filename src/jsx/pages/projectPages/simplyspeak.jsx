@@ -110,7 +110,7 @@ function SimplySpeak(props) {
                 imgSrc={"img/ss-animations.gif"} 
                 imgPosition={"left"}
                 title={"Delightful Animations & UI"} 
-                description={"To give users a breather from their stressful job hunt and to invite user to engage more with learning, we craft a welcoming interface with fun screen transitions."}></ImgText>
+                description={"To give users a breather from their stressful job hunt and to invite them to engage more with learning, we craft a welcoming interface with fun screen transitions."}></ImgText>
                 
                 <ImgText 
                 imgSrc={"img/ss-onboarding.gif"} 

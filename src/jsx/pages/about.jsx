@@ -19,9 +19,19 @@ function About(props) {
             </div>
             <div className='rightRail'>
                 <div className='aboutBlurb'>
-                    <h2 className='aboutTag'>UI/UX  •  Product Designer  •  Art Lover</h2>
-                    <p>Hi, nice to meet you! I'm Zihan, a Product Designer with 5+ years of experience crafting elegant solutions for mobile, web, and AR/VR. I specialize in user-centered design strategy, grounded by thorough research and brought to life through thoughful visual interfaces.</p>
+                    <h2 className='aboutHeading'>UI/UX  •  Product Designer  •  Art Lover</h2>
+                    <p>Hi, nice to meet you! I'm Zihan, a Product Designer with 5+ years of experience crafting elegant solutions for mobile, web, and AR/VR. I specialize in user-centered design strategy, grounded by thorough research and brought to life through thoughtful visual interfaces.</p>
                     <p>I graduated from <b>Dartmouth College</b> in 2023 from the M.S. in Computer Science and Digital Arts program. My thesis focused on building AI camera systems to better streaming and recording in VR applications.</p>
+                    <div className='likeDislike'>
+                        <span className='aboutSubheading'>Likes: </span>
+                        <span className=''>drawing, board games, exploring craft markets, napping </span>
+                    </div>
+                    <div className='likeDislike'>
+                        <span className='aboutSubheading'>Dislikes: </span>
+                        <span className=''>also drawing, fishsticks, formatting text on yellow backgrounds :c </span>
+                    </div>
+
+
                 </div>
             </div>
             

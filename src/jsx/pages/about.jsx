@@ -5,14 +5,24 @@ function About(props) {
     return (
         <div className='aboutContainer'> 
             <div className='leftRail'>
-                <div className='leftInfo'>
-                    <div className='photoContainer'></div>
-                    <p>This is the about me.</p>
+                <div className='leftFloat'>
+                    <div className='photoContainer'>
+                        <img src='img/about-photo-1.jpg'></img>
+                    </div>
+                    
+                    <div className="leftInfoContainer">
+                        <a href="mailto:zihanna.wu@gmail.com"><img className="aboutIcon" src="img/icon-email.svg" alt="Email" />zihanna.wu@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/annapoliswu/" target="_blank" rel="noopener noreferrer"><img className="aboutIcon" src="img/icon-linkedin.svg" alt="LinkedIn" />linkedin.com/in/annapoliswu</a>
+                    </div>
+
                 </div>
             </div>
             <div className='rightRail'>
-                <h1 className='aboutName'>Zihan Wu</h1><h2 className='aboutTag'>UI/UX - Product Designer - Life Enjoyer</h2>
-                <p>Hi, nice to meet you! I'm Zihan, a UX / Product designer with 5+ years of experience designing elegant solutions. </p>
+                <div className='aboutBlurb'>
+                    <h2 className='aboutTag'>UI/UX  •  Product Designer  •  Art Lover</h2>
+                    <p>Hi, nice to meet you! I'm Zihan, a Product Designer with 5+ years of experience crafting elegant solutions for mobile, web, and AR/VR. I specialize in user-centered design strategy, grounded by thorough research and brought to life through thoughful visual interfaces.</p>
+                    <p>I graduated from <b>Dartmouth College</b> in 2023 from the M.S. in Computer Science and Digital Arts program. My thesis focused on building AI camera systems to better streaming and recording in VR applications.</p>
+                </div>
             </div>
             
         </div>

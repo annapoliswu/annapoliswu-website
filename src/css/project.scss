@@ -60,7 +60,7 @@ th{ background-color: $brand-200; color: $brand-500;}
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: $spacing-lg 0;
+    padding-top: $spacing-md;
     border-radius: $rounded;
     
     gap: .5rem;
@@ -94,7 +94,6 @@ th{ background-color: $brand-200; color: $brand-500;}
 }
 
 .projectContent{
-    margin-top: 2rem;
     display: flex;
     flex-direction: column;
 }

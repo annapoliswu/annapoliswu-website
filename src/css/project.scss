@@ -1,8 +1,12 @@
 @use './sharedVariables' as *;
 
+
 .zoomImg, .sliderImg, .videoFrame{
     max-width: 100%;
     height: auto;
+}
+
+.projectContainer .zoomImg, .projectContainer .sliderImg, .projectContainer .videoFrame{
     margin: 4rem 0;
 }
 
@@ -125,7 +129,7 @@ th{ background-color: $brand-200; color: $brand-500;}
         margin: 1rem 0;
     }
 
-    .zoomImg, .sliderImg{
+    .projectContainer .zoomImg, .projectContainer .sliderImg, .projectContainer .videoFrame{
         margin: 2rem 0;
     }
 

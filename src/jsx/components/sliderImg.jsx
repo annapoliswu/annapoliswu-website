@@ -20,7 +20,7 @@ const SliderImg = (props) => {
                 firstImage={{imageUrl: props.rightImg}}
                 secondImage={{imageUrl: props.leftImg}}
                 delimiterIconStyles={delimiterIconStyles}
-                alt={props.alt}
+                alt={props.alt  || undefined}
     />
 )};
 

@@ -1,9 +1,14 @@
 @use './sharedVariables' as *;
 
+.archiveContainer{
+    padding: 3% 6%;
+}
+
 .archiveContainer h1, .archiveContainer h2, .archiveContainer h3{
     text-align: center;
     color: $brand-500;
     padding: 1rem 0px;
+    
 }
 
 .archiveContainer h1{
@@ -20,5 +25,11 @@
 
 .archiveContainer p{
     text-align: center;
-    padding: 1rem 0px;
+    padding: 2rem 0px;
+}
+
+@media only screen and (width <= $desktop) {
+    .archiveContainer{
+        padding: 0 0;
+    }
 }

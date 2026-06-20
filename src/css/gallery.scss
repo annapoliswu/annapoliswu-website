@@ -2,7 +2,7 @@
 
 .galleryGrid {
     max-width: 100%;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .gridSizer,.gridItem { width: 32.5% }
@@ -19,4 +19,8 @@
 @media only screen and (width <= $desktop) {
     .gridSizer,.gridItem { width: 49% }
     .gridItem {margin-bottom: 2px}
+
+    .galleryGrid {
+        padding: 2rem 0;
+    }
 }

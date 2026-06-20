@@ -26,7 +26,7 @@ const Gallery = (props) => {
                 imagesLoadedOptions={imagesLoadedOptions} // default {}
             >   <div class="gridSizer"></div>
                 <div class="gutterSizer"></div>
-                {props.urls.map(({url, alt}, index) => {
+                {props.imgList.map(({url, alt}, index) => {
                         return <div className="gridItem" > <ZoomImg className="gridZoomImg" key={index + " zoomImg"} imgSrc={url} alt={alt} > </ZoomImg></div>
                 })}
             </Masonry>

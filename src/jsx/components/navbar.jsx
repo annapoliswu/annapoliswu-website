@@ -23,7 +23,7 @@ const Navbar = () => {
             
             <ul className={isNavOpen ? 'navActive' : 'navHidden'}>
                 <li><NavLink to="/">WORK</NavLink></li>
-                <li><NavLink to="/gallery">GALLERY</NavLink></li>
+                <li><NavLink to="/gallery">ART GALLERY</NavLink></li>
                 <li><NavLink to="/about">ABOUT</NavLink></li>
                 <li><NavLink to="/resume">RESUME</NavLink></li>
             </ul>

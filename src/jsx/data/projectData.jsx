@@ -60,16 +60,16 @@ export const ProjectData = new Map([
         cover: 'img/soundboard-cover.jpg'}],
 
     ["gallery", {
-        title: "Soundboard App",
-        timeFrame: "2022",
-        role: ["Developer", "Backend & Navigation"],
-        tools: ["VSCode", "Kotlin", "Firebase"],
-        collab: ["3 Developers"],
-        tags: ["Featured","Dev"],
-        blurb: "Developing an Android app for sound designers to share soundbytes.",
-        link: "/archive",
-        thumbnail: 'img/soundboard-thumbnail.jpg',
-        cover: 'img/soundboard-cover.jpg'}]
+        title: "Misc. Art & Design",
+        timeFrame: "2023-2026",
+        role: ["Artist", "Designer"],
+        tools: ["Figma", "Procreate","Photoshop"],
+        collab: ["Marketing"],
+        tags: ["Featured", "Illustration", "Design", "Branding"],
+        blurb: "Collection of volunteer design work and misc art from over the years.",
+        link: "/gallery",
+        thumbnail: 'img/gallery-thumbnail.jpg',
+        cover: 'img/gallery-thumbnail.jpg'}]
 ]);
 
 export default ProjectData;

@@ -11,7 +11,7 @@ function Gallery(props) {
             <hr/>
 
             <div id='vcs-sea'>
-                <p>Drew key art and led art direction for the <a href="https://www.instagram.com/fromseatoseanyc/" target="_blank">2026 NYC Southeast Asian Festival</a>, garnering over 900+ attendees.</p>
+                <p>Drew key posters and led art direction for the <a href="https://www.instagram.com/fromseatoseanyc/" target="_blank">2026 NYC Southeast Asian Festival</a>, garnering over 900+ attendees.</p>
                 <MasonGrid imgList={[
                     {url: "img/vcs-sea-2.jpg"},
                     {url: "img/vcs-sea-1.jpg"},
@@ -44,18 +44,45 @@ function Gallery(props) {
             <hr/>
             
             <div id='mavis-assets'>
-                <p>Artist highlights created for a tech music night hosted by the Viet Creative Society <a href="https://www.instagram.com/p/DS5YAWNDli_/" target="_blank">(@vcs.nyc)</a>. </p>
+                <p>Created Mavis's style guide, partnering with Method Design to <b>redefine our 2025 site branding</b>.
+                    <br/>Made various vectors, web assets, and ad campaign key art.</p>
                 <MasonGrid imgList={[
-                    {url: "img/vcs-beep-boop-1.jpg"},
+                    {url: "img/mt-branding-1.jpg"},
+                    {url: "img/mt-branding-2.jpg"},
+                    {url: "img/mt-branding-3.jpg"},
+
+                    {url: "img/mt-branding-4.jpg"},
+                    
+                    {url: "img/mt-branding-7.jpg"},
+                    {url: "img/mt-branding-8.jpg"},
+                    {url: "img/mt-branding-9.jpg"},
+
+                    
+                    {url: "img/mt-branding-5.jpg"},
+                    {url: "img/mt-branding-6.jpg"},
                 ]}></MasonGrid>
             </div>
 
             <hr/>
 
             <div id='mavis-assets'>
-                <p>Artist highlights created for a tech music night hosted by the Viet Creative Society <a href="https://www.instagram.com/p/DS5YAWNDli_/" target="_blank">(@vcs.nyc)</a>. </p>
+                <p>Hobby illustrations throughout the years.  </p>
                 <MasonGrid imgList={[
-                    {url: "img/vcs-beep-boop-1.jpg"},
+                    
+                    {url: "img/hobby-art-5.jpg"},
+                    {url: "img/hobby-art-12.jpg"},
+                    
+                    {url: "img/hobby-art-2.jpg"},
+                    {url: "img/hobby-art-6.jpg"},
+                    {url: "img/hobby-art-3.jpg"},
+                    {url: "img/hobby-art-4.jpg"},
+                    {url: "img/hobby-art-7.jpg"},
+                    
+                    {url: "img/hobby-art-9.jpg"},
+                    {url: "img/hobby-art-10.jpg"},
+                    {url: "img/hobby-art-8.jpg"},
+                    {url: "img/hobby-art-11.jpg"},
+                    {url: "img/hobby-art-15.jpg"},
                 ]}></MasonGrid>
             </div>
 

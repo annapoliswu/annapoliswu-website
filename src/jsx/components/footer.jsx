@@ -21,7 +21,7 @@ const Footer = () => {
 
                 <div id='footerNav'> 
                     <NavLink to="/">Work</NavLink>
-                    <NavLink to="/archive">Archive</NavLink>
+                    <NavLink to="/gallery">Art Gallery</NavLink>
                     <NavLink to="/about">About</NavLink>
                     <NavLink to="/resume">Resume</NavLink>
                 </div>

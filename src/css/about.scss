@@ -94,6 +94,20 @@
     color: $brand-500;
 }
 
+.rightRail a{
+    color: $brand-500;
+    font-weight: 700;
+    text-decoration-color: #FFFFFF00;
+    transition: ease-in-out 150ms;
+}
+
+.rightRail a:hover{
+    color: $brand-700;
+    text-decoration: underline;
+    text-decoration-color: $brand-700;
+}
+
+
 
 @media only screen and (width <= $desktop) {
 

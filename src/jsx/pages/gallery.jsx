@@ -19,7 +19,7 @@ function Gallery(props) {
                     {url: "img/vcs-sea-4.jpg"},
                     {url: "img/vcs-sea-merch.jpg"},
                     {url: "img/vcs-sea-6.jpg"},
-                    {url: "img/vcs-sea-8.jpg"},
+                    {url: "https://www.youtube.com/embed/aEqQiGJZTkk"}
                 ]}></MasonGrid>
             </div>
 

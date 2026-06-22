@@ -1,5 +1,6 @@
 import React from "react"
 import ZoomImg from "./zoomImg"
+import VideoFrame from "./videoFrame"
 
 import '../../css/masonGrid.scss';
 
@@ -26,9 +27,24 @@ const MasonGrid = (props) => {
                 imagesLoadedOptions={imagesLoadedOptions} // default {}
             >   <div class="gridSizer"></div>
                 <div class="gutterSizer"></div>
-                {props.imgList.map(({url, alt}, index) => {
-                        return <div className="gridItem" > <ZoomImg className="gridZoomImg" key={index + " zoomImg"} imgSrc={url} alt={alt} > </ZoomImg></div>
-                })}
+                {props.imgList.map(({url, alt, title}, index) => {
+                    return( 
+                        <div className="gridItem" > 
+                            {url.includes("youtube") ? (
+                                <VideoFrame
+                                    videoUrl={url}
+                                    title={title}
+                                ></VideoFrame>
+                            ):(
+                                <ZoomImg 
+                                    className="gridZoomImg" 
+                                    key={index + " zoomImg"} 
+                                    imgSrc={url} 
+                                    alt={alt}>
+                                </ZoomImg>
+                            )}
+                        </div>)
+                    })}
             </Masonry>
         );
     }

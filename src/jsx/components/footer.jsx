@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div id='footerBottom'>
-                <p>Built with <img id="footerHeart" src="img/icon-heart.svg" alt="love"/> in React © Zihan Wu 2026</p>
+                <p>Coded with <img id="footerHeart" src="img/icon-heart.svg" alt="love"/> in React by Zihan Wu © 2026</p>
             </div>
 
         </footer>

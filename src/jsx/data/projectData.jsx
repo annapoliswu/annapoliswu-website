@@ -57,6 +57,18 @@ export const ProjectData = new Map([
         blurb: "Developing an Android app for sound designers to share soundbytes.",
         link: "/soundboard",
         thumbnail: 'img/soundboard-thumbnail.jpg',
+        cover: 'img/soundboard-cover.jpg'}],
+
+    ["gallery", {
+        title: "Soundboard App",
+        timeFrame: "2022",
+        role: ["Developer", "Backend & Navigation"],
+        tools: ["VSCode", "Kotlin", "Firebase"],
+        collab: ["3 Developers"],
+        tags: ["Featured","Dev"],
+        blurb: "Developing an Android app for sound designers to share soundbytes.",
+        link: "/archive",
+        thumbnail: 'img/soundboard-thumbnail.jpg',
         cover: 'img/soundboard-cover.jpg'}]
 ]);
 

@@ -1,0 +1,26 @@
+@use './sharedVariables' as *;
+
+.masonGrid {
+    max-width: 100%;
+    padding: 3rem 0;
+}
+
+.gridSizer,.gridItem { width: 32.5% }
+.gutterSizer { width: 1% }
+.gridItem {
+    margin-bottom: .6%
+}
+
+.gridZoomImg{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+@media only screen and (width <= $desktop) {
+    .gridSizer,.gridItem { width: 49% }
+    .gridItem {margin-bottom: 2px}
+
+    .masonGrid {
+        padding: 2rem 0;
+    }
+}

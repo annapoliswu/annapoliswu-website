@@ -10,7 +10,7 @@ import Navbar from './jsx/components/navbar';
 import Footer from './jsx/components/footer';
 
 import Homepage from './jsx/pages/homepage';
-import Archive from './jsx/pages/archive';
+import Gallery from './jsx/pages/gallery';
 import About from './jsx/pages/about';
 import Fallback from './jsx/pages/fallback';
 
@@ -41,8 +41,8 @@ const router = createBrowserRouter([
                 element: <Homepage />,
             },
             {
-                path: '/archive',
-                element: <Archive />,
+                path: '/gallery',
+                element: <Gallery />,
             },
             {
                 path: '/about',

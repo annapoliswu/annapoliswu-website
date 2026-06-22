@@ -14,8 +14,7 @@
     font-family: $font-script;
     color: $brand-500;
     font-weight: 500;
-    font-size: 80px;
-    padding-bottom: 2rem;
+    font-size: 4rem;
 }
 
 .galleryContainer p{
@@ -39,5 +38,11 @@
 @media only screen and (width <= $desktop) {
     .galleryContainer{
         padding: 0 0;
+    }
+    
+}
+@media only screen and (width <= $mobile) {
+    .galleryContainer h1{
+        font-size: 3rem;
     }
 }

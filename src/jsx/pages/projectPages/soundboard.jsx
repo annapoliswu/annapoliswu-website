@@ -20,7 +20,7 @@ function Soundboard(props) {
                     title="Soundboard App Demo"
                 ></VideoFrame>
 
-                <p>We developed this app in Android Studio, using Kotlin and a Firebase backend. I programmed the application flow + navigation bar, login screens, and backend user management.</p>
+                <p>We developed this app in Android Studio, using <b>Kotlin</b> and a <b>Firebase backend</b>. I programmed the application flow + navigation bar, login screens, and backend user management.</p>
                 
                 <hr/>
                 <h6 className='subheading'>The Problem</h6>
@@ -84,12 +84,13 @@ function Soundboard(props) {
                 <h6 className='subheading'>Conclusion</h6>
                 <h2>Challenges and Takeaways</h2>
                 
-                <p>In collaborating with and bouncing ideas off of other UX designers in this design jam, I gained a lot of valuable insights. </p>
+                <p>Through this 3 week sprint, we put all our course learnings into practice to bring this product to life. </p>
 
                 <ol>
-                    <li>When in doubt, revisit user feedback and sit down with your users again.</li>
-                    <li>Narrow down the target user base. Our designs had clearer direction when we focused on solving one specific problem really well, rather than solving multiple problems all at once. </li>
-                    <li>We spent a lot of time iterating on our first design direction. Stay open to pivoting when early design solutions don't feel quite right. </li>
+                    <li>We broke down tasks to delegate and to effectively communicated as a development team through busy schedules.</li>
+                    <li>I worked extensively with async calls to resolve loading issues.</li>
+                    <li>Learned when to build from scratch and when to incorporate existing open source resources and components. </li>
+                    <li>Finally figured out how Firebase Storage, Auth, and the Realtime Database all connected together.</li>
                 </ol>
 
             </Project>

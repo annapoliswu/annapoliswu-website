@@ -21,7 +21,7 @@ function About(props) {
             <div className='rightRail'>
                 <div className='aboutBlurb'>
                     <h2 className='aboutHeading'>UI/UX  •  Product Designer  •  Art Lover</h2>
-                    <p>Hi, nice to meet you! I'm Zihan, a Product Designer with <b>5+ years</b> of experience crafting elegant solutions for mobile, web, and AR/VR. I specialize in user-centered design strategy, grounded by thorough research and my practical programming background. I bring engaging visual interfaces to life with thoughtful ideation.</p>
+                    <p>Hi, nice to meet you! I'm Zihan, a Product Designer with <b>5+ years</b> of experience crafting elegant solutions for mobile, web, and AR/VR. I specialize in user-centered design strategy, grounded by thorough research and a practical background in programming. I bring engaging visual interfaces to life with thoughtful ideation.</p>
                     <p>I graduated from <b>Dartmouth College</b> in 2023 from the M.S. in Computer Science and Digital Arts program. My thesis focused on <a href="https://digitalcommons.dartmouth.edu/masters_theses/162/" target="_blank">building AI camera systems</a> to better streaming and recording in VR applications.</p>
                     
                     

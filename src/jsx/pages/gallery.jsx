@@ -65,8 +65,8 @@ function Gallery(props) {
 
             <hr/>
 
-            <div id='mavis-assets'>
-                <p>Hobby illustrations throughout the years.  </p>
+            <div id='hobby-illustration'>
+                <p>Hobby illustrations I've done throughout the years for fun!  </p>
                 <MasonGrid imgList={[
                     
                     {url: "img/hobby-art-5.jpg"},

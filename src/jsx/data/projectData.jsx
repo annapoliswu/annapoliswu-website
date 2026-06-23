@@ -1,5 +1,6 @@
 export const ProjectData = new Map([
     ["mavisVehiclePages", {
+        id: "mavisVehiclePages",
         title: "Mavis Vehicle Pages",
         timeFrame: "2026",
         role: ["UI/UX Lead"],
@@ -12,6 +13,7 @@ export const ProjectData = new Map([
         cover: 'img/vhp-cover.jpg'}],
 
     ["mavisCheckout", {
+        id: "mavisCheckout" , 
         title: "Mavis Checkout Enhancements",
         timeFrame: "2025",
         role: ["UI/UX Lead"],
@@ -24,6 +26,7 @@ export const ProjectData = new Map([
         cover: 'img/mt-checkout-cover.jpg'}],
 
     ["simplyspeak",  {
+        id: "simplyspeak", 
         title: "SimplySpeak App",
         timeFrame: "2024",
         role: ["UI/UX Designer"],
@@ -36,6 +39,7 @@ export const ProjectData = new Map([
         cover: 'img/simplyspeak-cover.jpg'}],
 
     ["veridium",  {
+        id: "veridium",
         title: "Veridium",
         timeFrame: "2024",
         role: ["UX Researcher","3D Artist"],
@@ -48,6 +52,7 @@ export const ProjectData = new Map([
         cover: 'img/veridium-2.png'}],
 
     ["soundboard", {
+        id: "soundboard",
         title: "Soundboard App",
         timeFrame: "2022",
         role: ["Developer", "Backend & Navigation"],
@@ -60,6 +65,7 @@ export const ProjectData = new Map([
         cover: 'img/soundboard-cover.jpg'}],
 
     ["gallery", {
+        id: "gallery",
         title: "Misc. Art & Design",
         timeFrame: "2023-2026",
         role: ["Artist", "Designer"],

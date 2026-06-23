@@ -102,6 +102,26 @@ th{ background-color: $brand-200; color: $brand-500;}
     flex-direction: column;
 }
 
+.projectNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:24px;
+}
+
+.projectNav p{
+    margin: 4px 0;
+}
+
+.projectNavLabel{
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.nextProject{
+    text-align: right;
+}
+
 @media only screen and (width <= $mobile) {
     .projectContainer{
         padding: 0;

@@ -1,9 +1,16 @@
 import React from 'react';
 import '../../css/project.scss';
+import { Link } from 'react-router';
+import ProjectData from '../data/projectData'
 
 
 
 function Project(props) {
+    const projectArray = [...ProjectData];
+    const index = projectArray.findIndex(([id]) => id === props.id);
+    const prevProject = index > 0 ? projectArray[index - 1][1] : null;
+    const nextProject = index < projectArray.length - 1 ? projectArray[index + 1][1] : null;
+
     return (
         <div className='projectContainer'> 
             
@@ -40,6 +47,26 @@ function Project(props) {
             <hr></hr>
             <div className='projectContent'>
                 {props.children}
+            </div>
+
+            <hr/>
+            
+            <div className='projectNav'>
+                {prevProject ? 
+                    (<div className='prevProject'>
+                    <p className='projectNavLabel'>PREV. PROJECT </p>
+                    <Link to={prevProject.link}>{prevProject.title}</Link>
+                    </div>) 
+                : <div className='prevProject'></div>}
+                
+                {nextProject ? 
+                    (<div className='nextProject'>
+                    <p className='projectNavLabel'>NEXT PROJECT</p>
+                    <Link to={nextProject.link}> {nextProject.title}</Link>
+                    </div>)
+                    :<div className='prevProject'></div>
+                }
+                
             </div>
         </div>
     );

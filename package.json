@@ -47,6 +47,7 @@
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.2",
     "axios": "^1.13.2",
+    "caniuse-lite": "^1.0.30001799",
     "lodash.debounce": "^4.0.8",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",

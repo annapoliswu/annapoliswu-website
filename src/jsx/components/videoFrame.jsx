@@ -10,7 +10,6 @@ const VideoFrame = (props) => {
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             referrerpolicy="strict-origin-when-cross-origin" 
-            allow="fullscreen"
             allowFullScreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"

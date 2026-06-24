@@ -13,7 +13,7 @@ function About(props) {
                     
                     <div className="leftInfoContainer">
                         <a href="mailto:zihanna.wu@gmail.com"><img className="aboutIcon" src="img/icon-email.svg" alt="Email" />zihanna.wu@gmail.com</a>
-                        <a href="https://www.linkedin.com/in/annapoliswu/" target="_blank" rel="noopener noreferrer"><img className="aboutIcon" src="img/icon-linkedin.svg" alt="LinkedIn" />linkedin.com/in/annapoliswu</a>
+                        <a href="https://www.linkedin.com/in/zihannawu/" target="_blank" rel="noopener noreferrer"><img className="aboutIcon" src="img/icon-linkedin.svg" alt="LinkedIn" />linkedin.com/in/zihannawu</a>
                     </div>
 
                 </div>

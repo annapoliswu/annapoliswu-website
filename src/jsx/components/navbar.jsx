@@ -25,7 +25,7 @@ const Navbar = () => {
                 <li><NavLink to="/">WORK</NavLink></li>
                 <li><NavLink to="/gallery">ART GALLERY</NavLink></li>
                 <li><NavLink to="/about">ABOUT</NavLink></li>
-                <li><NavLink to="/resume">RESUME</NavLink></li>
+                <li><NavLink to="https://drive.google.com/file/d/19dsVO4_Oq4jXjpO0QQQajKf8vJy2WQpd/view?usp=sharing" target='_blank'>RESUME</NavLink></li>
             </ul>
         
         </nav>

@@ -7,14 +7,14 @@ import '../../css/masonGrid.scss';
 
 import Masonry from 'react-masonry-component';
 const masonryOptions = {
-    transitionDuration: '.2s',
+    transitionDuration: 0,
     percentPosition: true,
     columnWidth: '.gridSizer',
     gutter: '.gutterSizer',
     itemSelector: '.gridItem'
 };
 
-const imagesLoadedOptions = { };
+const imagesLoadedOptions = {};
 
 const MasonGrid = (props) => {
         return (
@@ -25,6 +25,7 @@ const MasonGrid = (props) => {
                 disableImagesLoaded={false} // default false
                 updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
                 imagesLoadedOptions={imagesLoadedOptions} // default {}
+                percentPosition={true}
             >   <div class="gridSizer"></div>
                 <div class="gutterSizer"></div>
                 {props.imgList.map(({url, alt, title}, index) => {

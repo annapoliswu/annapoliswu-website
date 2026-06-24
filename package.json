@@ -1,14 +1,14 @@
 {
-  "name": "annapoliswu-website",
+  "name": "portfolio-website",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://annapoliswu.github.io/annapoliswu-website",
+  "homepage": "https://annapoliswu.github.io/portfolio-website",
   "bugs": {
-    "url": "https://github.com/annapoliswu/annapoliswu-website/issues"
+    "url": "https://github.com/annapoliswu/portfolio-website/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/annapoliswu/annapoliswu-website.git"
+    "url": "git+https://github.com/annapoliswu/portfolio-website.git"
   },
   "license": "ISC",
   "author": "",

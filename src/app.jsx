@@ -24,6 +24,7 @@ import MavisCheckout from './jsx/pages/projectPages/mavisCheckout';
 const AppLayout = () => (
     <>
         <head>
+            <link rel="icon" type="image/svg+xml" href="img/icon-fav.svg" />
             <meta name="robots" content="noindex, nofollow" /> {/*no-index-ing the site from search engines*/}
         </head>
         <Navbar />

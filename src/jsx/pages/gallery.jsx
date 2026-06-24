@@ -44,7 +44,7 @@ function Gallery(props) {
             <hr/>
             
             <div id='mavis-assets'>
-                <p>Created Mavis's style guide, partnering with Method Design to <b>redefine our 2025 site branding</b>.
+                <p>Created Mavis's style guide, partnering with Method Design to <b>redefine our 2024 site branding</b>.
                     <br/>Made various vectors, web assets, and ad campaign key art.</p>
                 <MasonGrid imgList={[
                     {url: "img/mt-branding-1.jpg"},

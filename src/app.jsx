@@ -23,6 +23,9 @@ import MavisCheckout from './jsx/pages/projectPages/mavisCheckout';
 
 const AppLayout = () => (
     <>
+        <head>
+            <meta name="robots" content="noindex, nofollow" /> {/*no-index-ing the site from search engines*/}
+        </head>
         <Navbar />
         <div className='appContainer'>  
             <Outlet />
